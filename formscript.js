@@ -1,3 +1,34 @@
+  document.addEventListener("DOMContentLoaded", () => {
+  fetch('diagnoses.json')
+    .then(res => res.json())
+    .then(data => {
+      function getValidValues(col) {
+        return data.map(e => e[col]).filter(v => v);
+      }
+
+      const diagValues = getValidValues('diag');
+
+      function pickRandom(arr) {
+        return arr[Math.floor(Math.random() * arr.length)];
+      }
+
+      const randomDiag = pickRandom(diagValues);
+      
+      // You can now use this however you want
+      console.log("Random diagnosis:", randomDiag);
+
+      const replacements = {
+        '(diag)': randomDiag
+      };
+
+      // Example usage: replace placeholder in a template string
+      const template = "The diagnosis is (diag).";
+      const output = template.replace("(diag)", replacements["(diag)"]);
+      console.log(output);
+    })
+    .catch(error => console.error('Error loading diagnoses.json:', error));
+});
+  
   document.getElementById('surveyForm').addEventListener('submit', async function (e) {
     e.preventDefault();
 

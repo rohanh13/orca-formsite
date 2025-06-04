@@ -84,6 +84,29 @@ main {
   padding: 120px 20px 20px
 }
 
+.form-section button {
+width: 100%;
+max-width: 600px;
+padding: 12px;
+font-size: 1rem;
+border-radius: 8px;
+border: none;
+background-color: #0066cc;
+color: white;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+transition: background-color 0.3s ease;
+}
+
+.form-section button:hover {
+background-color: #005bb5;
+}
+
+.form-section button.submitting {
+background-color: #28a745 !important; /* Bootstrap-style green */
+cursor: default;
+}
+
 /* Footer */
 .footer-bar {
   background-color: #afafaf;

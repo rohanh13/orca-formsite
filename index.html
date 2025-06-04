@@ -24,8 +24,12 @@
     <main class="body">
       <section class="form-section">
         <h2>Survey Form</h2>
+
+        <p class="para1" id="para1">
+          Please answer the following questions based on (diagnosis)
+        </p>
+        
         <form id="surveyForm">
-          <!-- Multiple Choice Questions -->
           <div class="form-group">
             <label for="question1">1. What is your age group?</label>
             <select name="question1" id="question1" required>
@@ -38,7 +42,6 @@
             </select>
           </div>
 
-          <!-- Repeat similarly for Questions 2 to 9 -->
           <div class="form-group">
             <label for="question2">2. Question 2 text here</label>
             <select name="question2" id="question2" required>
@@ -120,12 +123,12 @@
           </div>
 
           <!-- Short Answer Questions -->
-          <div class="form-group">
+          <div class="form-group-sa">
             <label for="question10">10. Please describe your symptoms:</label>
             <textarea id="question10" name="question10" rows="3" required></textarea>
           </div>
 
-          <div class="form-group">
+          <div class="form-group-sa">
             <label for="question11">11. Additional comments:</label>
             <textarea id="question11" name="question11" rows="3"></textarea>
           </div>
