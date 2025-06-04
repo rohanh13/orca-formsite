@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return arr[Math.floor(Math.random() * arr.length)];
       }
 
-      const randomDiag = pickRandom(diagValues); // Save to local variable
+      randomDiag = pickRandom(diagValues); // Save to local variable
 
       const para = document.getElementById("para1");
       if (para) {
