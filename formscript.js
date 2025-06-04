@@ -53,7 +53,8 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
     question7: getCheckboxValues('question7'),
     question8: getCheckboxValues('question8'),
     question9: document.getElementById('question9').value,
-    question10: document.getElementById('question10').value
+    question10: document.getElementById('question10').value,
+    question11: document.getElementById('question11').value
   };
 
   try {

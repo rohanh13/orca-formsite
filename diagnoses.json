@@ -1,11 +1,908 @@
 [
   {
-    "diag": "A"
+    "diag": "Achilles tendinitis"
   },
   {
-    "diag": "B"
+    "diag": "Adhesive capsulitis"
   },
   {
-    "diag": "C"
+    "diag": "Ankle sprain"
+  },
+  {
+    "diag": "Anterior cruciate ligament (ACL) tear"
+  },
+  {
+    "diag": "Avascular necrosis"
+  },
+  {
+    "diag": "Biceps tendinitis"
+  },
+  {
+    "diag": "Bone fracture"
+  },
+  {
+    "diag": "Bursitis"
+  },
+  {
+    "diag": "Carpal tunnel syndrome"
+  },
+  {
+    "diag": "Cervical radiculopathy"
+  },
+  {
+    "diag": "Cervical spondylosis"
+  },
+  {
+    "diag": "Chondromalacia patellae"
+  },
+  {
+    "diag": "Compartment syndrome"
+  },
+  {
+    "diag": "Costochondritis"
+  },
+  {
+    "diag": "De Quervain's tenosynovitis"
+  },
+  {
+    "diag": "Degenerative disc disease"
+  },
+  {
+    "diag": "Disc herniation"
+  },
+  {
+    "diag": "Dupuytren's contracture"
+  },
+  {
+    "diag": "Epicondylitis"
+  },
+  {
+    "diag": "Facet joint syndrome"
+  },
+  {
+    "diag": "Fibromyalgia"
+  },
+  {
+    "diag": "Flatfoot (pes planus)"
+  },
+  {
+    "diag": "Ganglion cyst"
+  },
+  {
+    "diag": "Gout"
+  },
+  {
+    "diag": "Hammer toe"
+  },
+  {
+    "diag": "Heel spur"
+  },
+  {
+    "diag": "Herniated disc"
+  },
+  {
+    "diag": "Hip labral tear"
+  },
+  {
+    "diag": "Iliotibial band syndrome"
+  },
+  {
+    "diag": "Joint dislocation"
+  },
+  {
+    "diag": "Kyphosis"
+  },
+  {
+    "diag": "Lordosis"
+  },
+  {
+    "diag": "Lumbar radiculopathy"
+  },
+  {
+    "diag": "Lumbar spondylosis"
+  },
+  {
+    "diag": "Meniscal tear"
+  },
+  {
+    "diag": "Morton’s neuroma"
+  },
+  {
+    "diag": "Muscle strain"
+  },
+  {
+    "diag": "Myofascial pain syndrome"
+  },
+  {
+    "diag": "Osteoarthritis"
+  },
+  {
+    "diag": "Osteochondritis dissecans"
+  },
+  {
+    "diag": "Osteogenesis imperfecta"
+  },
+  {
+    "diag": "Osteomalacia"
+  },
+  {
+    "diag": "Osteomyelitis"
+  },
+  {
+    "diag": "Osteonecrosis"
+  },
+  {
+    "diag": "Osteopenia"
+  },
+  {
+    "diag": "Osteoporosis"
+  },
+  {
+    "diag": "Patellar tendinitis"
+  },
+  {
+    "diag": "Patellofemoral pain syndrome"
+  },
+  {
+    "diag": "Pes cavus"
+  },
+  {
+    "diag": "Plantar fasciitis"
+  },
+  {
+    "diag": "Polymyalgia rheumatica"
+  },
+  {
+    "diag": "Posterior cruciate ligament (PCL) tear"
+  },
+  {
+    "diag": "Rheumatoid arthritis"
+  },
+  {
+    "diag": "Rotator cuff tear"
+  },
+  {
+    "diag": "Sacroiliitis"
+  },
+  {
+    "diag": "Sciatica"
+  },
+  {
+    "diag": "Scoliosis"
+  },
+  {
+    "diag": "Shin splints"
+  },
+  {
+    "diag": "Shoulder impingement syndrome"
+  },
+  {
+    "diag": "Spinal stenosis"
+  },
+  {
+    "diag": "Spondylolisthesis"
+  },
+  {
+    "diag": "Spondylolysis"
+  },
+  {
+    "diag": "Sprain"
+  },
+  {
+    "diag": "Stress fracture"
+  },
+  {
+    "diag": "Tendinitis"
+  },
+  {
+    "diag": "Tennis elbow"
+  },
+  {
+    "diag": "Thoracic outlet syndrome"
+  },
+  {
+    "diag": "Torticollis"
+  },
+  {
+    "diag": "Trochanteric bursitis"
+  },
+  {
+    "diag": "Whiplash"
+  },
+  {
+    "diag": "Wrist sprain"
+  },
+  {
+    "diag": "Zygapophyseal joint dysfunction"
+  },
+  {
+    "diag": "Addison’s disease"
+  },
+  {
+    "diag": "Alopecia areata"
+  },
+  {
+    "diag": "Amyloidosis"
+  },
+  {
+    "diag": "Ankylosing spondylitis"
+  },
+  {
+    "diag": "Antiphospholipid syndrome"
+  },
+  {
+    "diag": "Autoimmune hepatitis"
+  },
+  {
+    "diag": "Autoimmune pancreatitis"
+  },
+  {
+    "diag": "Autoimmune thyroiditis"
+  },
+  {
+    "diag": "Behçet’s disease"
+  },
+  {
+    "diag": "Bullous pemphigoid"
+  },
+  {
+    "diag": "Celiac disease"
+  },
+  {
+    "diag": "Churg-Strauss syndrome"
+  },
+  {
+    "diag": "Crohn’s disease"
+  },
+  {
+    "diag": "Dermatomyositis"
+  },
+  {
+    "diag": "Discoid lupus erythematosus"
+  },
+  {
+    "diag": "Eosinophilic esophagitis"
+  },
+  {
+    "diag": "Eosinophilic fasciitis"
+  },
+  {
+    "diag": "Evans syndrome"
+  },
+  {
+    "diag": "Giant cell arteritis"
+  },
+  {
+    "diag": "Goodpasture’s syndrome"
+  },
+  {
+    "diag": "Graves’ disease"
+  },
+  {
+    "diag": "Guillain-Barré syndrome"
+  },
+  {
+    "diag": "Hashimoto’s thyroiditis"
+  },
+  {
+    "diag": "Hemolytic anemia"
+  },
+  {
+    "diag": "Henoch-Schönlein purpura"
+  },
+  {
+    "diag": "Hidradenitis suppurativa"
+  },
+  {
+    "diag": "IgA nephropathy"
+  },
+  {
+    "diag": "Immune thrombocytopenic purpura"
+  },
+  {
+    "diag": "Inclusion body myositis"
+  },
+  {
+    "diag": "Interstitial cystitis"
+  },
+  {
+    "diag": "Juvenile idiopathic arthritis"
+  },
+  {
+    "diag": "Kawasaki disease"
+  },
+  {
+    "diag": "Lambert-Eaton myasthenic syndrome"
+  },
+  {
+    "diag": "Lichen planus"
+  },
+  {
+    "diag": "Lichen sclerosus"
+  },
+  {
+    "diag": "Linear IgA disease"
+  },
+  {
+    "diag": "Lupus nephritis"
+  },
+  {
+    "diag": "Microscopic polyangiitis"
+  },
+  {
+    "diag": "Mixed connective tissue disease"
+  },
+  {
+    "diag": "Multiple sclerosis"
+  },
+  {
+    "diag": "Myasthenia gravis"
+  },
+  {
+    "diag": "Myositis"
+  },
+  {
+    "diag": "Neuromyelitis optica"
+  },
+  {
+    "diag": "Optic neuritis"
+  },
+  {
+    "diag": "Palindromic rheumatism"
+  },
+  {
+    "diag": "Paraneoplastic cerebellar degeneration"
+  },
+  {
+    "diag": "Pemphigus vulgaris"
+  },
+  {
+    "diag": "Pernicious anemia"
+  },
+  {
+    "diag": "Polyarteritis nodosa"
+  },
+  {
+    "diag": "Polyglandular autoimmune syndrome"
+  },
+  {
+    "diag": "Polymyositis"
+  },
+  {
+    "diag": "Primary biliary cholangitis"
+  },
+  {
+    "diag": "Primary sclerosing cholangitis"
+  },
+  {
+    "diag": "Psoriasis"
+  },
+  {
+    "diag": "Psoriatic arthritis"
+  },
+  {
+    "diag": "Raynaud’s phenomenon"
+  },
+  {
+    "diag": "Reactive arthritis"
+  },
+  {
+    "diag": "Relapsing polychondritis"
+  },
+  {
+    "diag": "Rheumatic fever"
+  },
+  {
+    "diag": "Sarcoidosis"
+  },
+  {
+    "diag": "Scleroderma"
+  },
+  {
+    "diag": "Sjögren’s syndrome"
+  },
+  {
+    "diag": "Stiff person syndrome"
+  },
+  {
+    "diag": "Systemic lupus erythematosus"
+  },
+  {
+    "diag": "Takayasu’s arteritis"
+  },
+  {
+    "diag": "Temporal arteritis"
+  },
+  {
+    "diag": "Thrombotic thrombocytopenic purpura"
+  },
+  {
+    "diag": "Transverse myelitis"
+  },
+  {
+    "diag": "Type 1 diabetes mellitus"
+  },
+  {
+    "diag": "Ulcerative colitis"
+  },
+  {
+    "diag": "Uveitis"
+  },
+  {
+    "diag": "Vasculitis"
+  },
+  {
+    "diag": "Vitiligo"
+  },
+  {
+    "diag": "Vogt-Koyanagi-Harada disease"
+  },
+  {
+    "diag": "Abdominal aortic aneurysm"
+  },
+  {
+    "diag": "Achalasia"
+  },
+  {
+    "diag": "Acute pancreatitis"
+  },
+  {
+    "diag": "Adrenal insufficiency"
+  },
+  {
+    "diag": "Alcoholic liver disease"
+  },
+  {
+    "diag": "Appendicitis"
+  },
+  {
+    "diag": "Barrett's esophagus"
+  },
+  {
+    "diag": "Biliary colic"
+  },
+  {
+    "diag": "Biliary dyskinesia"
+  },
+  {
+    "diag": "Biliary tract obstruction"
+  },
+  {
+    "diag": "Bladder cancer"
+  },
+  {
+    "diag": "Bladder infection"
+  },
+  {
+    "diag": "Bowel obstruction"
+  },
+  {
+    "diag": "Brain abscess"
+  },
+  {
+    "diag": "Brain tumor"
+  },
+  {
+    "diag": "Bronchiectasis"
+  },
+  {
+    "diag": "Bronchitis"
+  },
+  {
+    "diag": "Cardiac tamponade"
+  },
+  {
+    "diag": "Cardiomyopathy"
+  },
+  {
+    "diag": "Carotid artery disease"
+  },
+  {
+    "diag": "Celiac artery compression syndrome"
+  },
+  {
+    "diag": "Cerebral aneurysm"
+  },
+  {
+    "diag": "Cerebral palsy"
+  },
+  {
+    "diag": "Cervical cancer"
+  },
+  {
+    "diag": "Cholecystitis"
+  },
+  {
+    "diag": "Cholelithiasis"
+  },
+  {
+    "diag": "Chronic kidney disease"
+  },
+  {
+    "diag": "COPD"
+  },
+  {
+    "diag": "Cirrhosis"
+  },
+  {
+    "diag": "Colitis"
+  },
+  {
+    "diag": "Colon cancer"
+  },
+  {
+    "diag": "Congenital heart disease"
+  },
+  {
+    "diag": "Congestive heart failure"
+  },
+  {
+    "diag": "Coronary artery disease"
+  },
+  {
+    "diag": "Cystic fibrosis"
+  },
+  {
+    "diag": "Deep vein thrombosis"
+  },
+  {
+    "diag": "Diabetes mellitus type 2"
+  },
+  {
+    "diag": "Diverticulitis"
+  },
+  {
+    "diag": "Duodenal ulcer"
+  },
+  {
+    "diag": "Dyspepsia"
+  },
+  {
+    "diag": "Dysphagia"
+  },
+  {
+    "diag": "Endocarditis"
+  },
+  {
+    "diag": "Endometrial cancer"
+  },
+  {
+    "diag": "Endometriosis"
+  },
+  {
+    "diag": "Epilepsy"
+  },
+  {
+    "diag": "Esophageal cancer"
+  },
+  {
+    "diag": "Esophagitis"
+  },
+  {
+    "diag": "Fatty liver disease"
+  },
+  {
+    "diag": "Gallbladder cancer"
+  },
+  {
+    "diag": "Gallstones"
+  },
+  {
+    "diag": "Gastric cancer"
+  },
+  {
+    "diag": "Gastric ulcer"
+  },
+  {
+    "diag": "Gastritis"
+  },
+  {
+    "diag": "Gastroenteritis"
+  },
+  {
+    "diag": "GERD"
+  },
+  {
+    "diag": "Glomerulonephritis"
+  },
+  {
+    "diag": "Hemochromatosis"
+  },
+  {
+    "diag": "Hemorrhoids"
+  },
+  {
+    "diag": "Hepatic encephalopathy"
+  },
+  {
+    "diag": "Hepatitis A"
+  },
+  {
+    "diag": "Hepatitis B"
+  },
+  {
+    "diag": "Hepatitis C"
+  },
+  {
+    "diag": "Hiatal hernia"
+  },
+  {
+    "diag": "Hyperparathyroidism"
+  },
+  {
+    "diag": "Hyperthyroidism"
+  },
+  {
+    "diag": "Hypoparathyroidism"
+  },
+  {
+    "diag": "Hypothyroidism"
+  },
+  {
+    "diag": "Inflammatory bowel disease"
+  },
+  {
+    "diag": "Influenza"
+  },
+  {
+    "diag": "Interstitial lung disease"
+  },
+  {
+    "diag": "Intestinal ischemia"
+  },
+  {
+    "diag": "Irritable bowel syndrome"
+  },
+  {
+    "diag": "Kidney cancer"
+  },
+  {
+    "diag": "Kidney stones"
+  },
+  {
+    "diag": "Lactose intolerance"
+  },
+  {
+    "diag": "Laryngeal cancer"
+  },
+  {
+    "diag": "Laryngitis"
+  },
+  {
+    "diag": "Leukemia"
+  },
+  {
+    "diag": "Liver cancer"
+  },
+  {
+    "diag": "Liver failure"
+  },
+  {
+    "diag": "Lung cancer"
+  },
+  {
+    "diag": "Lupus nephritis"
+  },
+  {
+    "diag": "Lymphoma"
+  },
+  {
+    "diag": "Malaria"
+  },
+  {
+    "diag": "Meningitis"
+  },
+  {
+    "diag": "Menstrual disorders"
+  },
+  {
+    "diag": "Migraine"
+  },
+  {
+    "diag": "Multiple endocrine neoplasia"
+  },
+  {
+    "diag": "Myocardial infarction"
+  },
+  {
+    "diag": "Myocarditis"
+  },
+  {
+    "diag": "Nephrotic syndrome"
+  },
+  {
+    "diag": "Non-alcoholic fatty liver disease"
+  },
+  {
+    "diag": "Obesity"
+  },
+  {
+    "diag": "Ovarian cancer"
+  },
+  {
+    "diag": "Pancreatic cancer"
+  },
+  {
+    "diag": "Pancreatitis"
+  },
+  {
+    "diag": "Parkinson's disease"
+  },
+  {
+    "diag": "Peptic ulcer disease"
+  },
+  {
+    "diag": "Pericarditis"
+  },
+  {
+    "diag": "Peripheral artery disease"
+  },
+  {
+    "diag": "Peritonitis"
+  },
+  {
+    "diag": "Pheochromocytoma"
+  },
+  {
+    "diag": "Pituitary adenoma"
+  },
+  {
+    "diag": "Pleural effusion"
+  },
+  {
+    "diag": "Pneumonia"
+  },
+  {
+    "diag": "Pneumothorax"
+  },
+  {
+    "diag": "Polycystic kidney disease"
+  },
+  {
+    "diag": "Portal hypertension"
+  },
+  {
+    "diag": "Prostate cancer"
+  },
+  {
+    "diag": "Prostatitis"
+  },
+  {
+    "diag": "Pulmonary embolism"
+  },
+  {
+    "diag": "Pulmonary fibrosis"
+  },
+  {
+    "diag": "Pyelonephritis"
+  },
+  {
+    "diag": "Rectal cancer"
+  },
+  {
+    "diag": "Renal artery stenosis"
+  },
+  {
+    "diag": "Renal cell carcinoma"
+  },
+  {
+    "diag": "Renal failure"
+  },
+  {
+    "diag": "Respiratory distress syndrome"
+  },
+  {
+    "diag": "Rheumatic heart disease"
+  },
+  {
+    "diag": "Sepsis"
+  },
+  {
+    "diag": "Short bowel syndrome"
+  },
+  {
+    "diag": "Sickle cell anemia"
+  },
+  {
+    "diag": "Sinusitis"
+  },
+  {
+    "diag": "Sleep apnea"
+  },
+  {
+    "diag": "Small intestinal bacterial overgrowth"
+  },
+  {
+    "diag": "Spinal cord injury"
+  },
+  {
+    "diag": "Splenomegaly"
+  },
+  {
+    "diag": "Stomach cancer"
+  },
+  {
+    "diag": "Stroke"
+  },
+  {
+    "diag": "Subarachnoid hemorrhage"
+  },
+  {
+    "diag": "Systemic inflammatory response syndrome"
+  },
+  {
+    "diag": "Testicular cancer"
+  },
+  {
+    "diag": "Thalassemia"
+  },
+  {
+    "diag": "Thyroid cancer"
+  },
+  {
+    "diag": "Thyroiditis"
+  },
+  {
+    "diag": "Tonsillitis"
+  },
+  {
+    "diag": "Toxic megacolon"
+  },
+  {
+    "diag": "Tracheal stenosis"
+  },
+  {
+    "diag": "Trigeminal neuralgia"
+  },
+  {
+    "diag": "Tuberculosis"
+  },
+  {
+    "diag": "Ulcerative colitis"
+  },
+  {
+    "diag": "Urinary incontinence"
+  },
+  {
+    "diag": "Urinary tract infection"
+  },
+  {
+    "diag": "Urolithiasis"
+  },
+  {
+    "diag": "Uterine fibroids"
+  },
+  {
+    "diag": "Uterine prolapse"
+  },
+  {
+    "diag": "Vaginal cancer"
+  },
+  {
+    "diag": "Varicocele"
+  },
+  {
+    "diag": "Varicose veins"
+  },
+  {
+    "diag": "Vasculitis"
+  },
+  {
+    "diag": "Ventricular fibrillation"
+  },
+  {
+    "diag": "Ventricular tachycardia"
+  },
+  {
+    "diag": "Viral hepatitis"
+  },
+  {
+    "diag": "Vitamin B12 deficiency"
+  },
+  {
+    "diag": "Vitamin D deficiency"
+  },
+  {
+    "diag": "Vocal cord paralysis"
   }
 ]
