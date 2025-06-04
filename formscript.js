@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
       }
 
-      const label = document.getElementById("form-group");
+      const label = document.getElementsByClassName("form-group");
       if (label) {
         label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
       }
