@@ -47,12 +47,12 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
     question1: getCheckboxValues('question1'),
     question2: getCheckboxValues('question2'),
     question3: getCheckboxValues('question3'),
-    question4: getCheckboxValues('question4'),
+    question4: document.getElementById('question4').value,
     question5: getCheckboxValues('question5'),
     question6: getCheckboxValues('question6'),
     question7: getCheckboxValues('question7'),
     question8: getCheckboxValues('question8'),
-    question9: getCheckboxValues('question9'),
+    question9: document.getElementById('question9').value,
     question10: document.getElementById('question10').value
   };
 
