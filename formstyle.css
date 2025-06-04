@@ -89,6 +89,11 @@ main {
   color:#0066cc
 }
 
+.brackets{
+  font-style: italic;
+  font-size: 16px;
+}
+
 h2 {
   font-size: 36px;
   text-align: center;
@@ -98,12 +103,12 @@ h2 {
 
 .para1 {
   font-size: 24px;
-  align-items: center;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .form-section {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -126,9 +131,15 @@ h2 {
   font-size: 20px;
 }
 
+.form-group-sa {
+  margin-bottom: 10px; /* small gap to answers */
+  font-weight: bold;
+  font-size: 24px;
+}
+
 /* For textarea styling */
 .form-group-sa textarea {
-  width: 100%;
+  width: 90%;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   border-radius: 8px;
@@ -136,11 +147,12 @@ h2 {
   padding: 10px;
   resize: vertical;
   box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-top: 4px;
 }
 
 .form-section button {
-width: 100%;
-max-width: 1000px;
+width: 90%;
 padding: 12px;
 font-size: 1rem;
 border-radius: 8px;
