@@ -13,18 +13,11 @@
       }
 
       const randomDiag = pickRandom(diagValues);
-      
-      // You can now use this however you want
-      console.log("Random diagnosis:", randomDiag);
 
-      const replacements = {
-        '(diag)': randomDiag
-      };
-
-      // Example usage: replace placeholder in a template string
-      const template = "The diagnosis is (diag).";
-      const output = template.replace("(diag)", replacements["(diag)"]);
-      console.log(output);
+      const para = document.getElementById("para1");
+      if (para) {
+        para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
+      }
     })
     .catch(error => console.error('Error loading diagnoses.json:', error));
 });
