@@ -21,9 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
         para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
       }
 
-      const formGroups = document.getElementsByClassName("form-group","form-group-sa");
+      const formGroups = document.getElementsByClassName("form-group");
       for (let i = 0; i < formGroups.length; i++) {
         const label = formGroups[i].querySelector("label");
+        if (label && label.textContent.includes("(diagnosis)")) {
+          label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
+        }
+      }
+
+      const formGroupsSa = document.getElementsByClassName("form-group-sa");
+      for (let i = 0; i < formGroupsSa.length; i++) {
+        const label = formGroupsSa[i].querySelector("label");
         if (label && label.textContent.includes("(diagnosis)")) {
           label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
         }
