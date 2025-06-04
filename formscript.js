@@ -18,6 +18,7 @@
     try {
       const response = await fetch('https://script.google.com/macros/s/AKfycbzHplXoz5RoUdBsRiI6nCQgObp9Yn06hW5_quO5upbQmHMNt-Su2_IE9jPof4xyICILvQ/exec', {
         method: 'POST',
+        mode: 'no-cors',
         body: JSON.stringify(formData),
         headers: {
           'Content-Type': 'application/json'
