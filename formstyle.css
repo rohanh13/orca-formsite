@@ -81,12 +81,66 @@ main {
 
 /* Body Sections */
 .body {
-  padding: 120px 20px 20px
+  padding: 100px 20px 20px
+}
+
+.bold{
+  font-weight: bold;
+  color:#0066cc
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.para1 {
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group, .form-group-sa {
+  margin-bottom: 20px; /* Space after the whole question group */
+}
+
+/* Remove margin from question stem to avoid gap */
+.form-group label:first-of-type {
+  margin-bottom: 10px; /* small gap to answers */
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Remove any top margin on answers */
+.form-group label:not(:first-of-type) {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* For textarea styling */
+.form-group-sa textarea {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  padding: 10px;
+  resize: vertical;
+  box-sizing: border-box;
 }
 
 .form-section button {
 width: 100%;
-max-width: 600px;
+max-width: 1000px;
 padding: 12px;
 font-size: 1rem;
 border-radius: 8px;

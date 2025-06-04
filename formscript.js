@@ -20,6 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (para) {
         para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
       }
+
+      const label = document.getElementById("form-group");
+      if (label) {
+        label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
+      }
     })
     .catch(error => console.error('Error loading diagnoses.json:', error));
 });
