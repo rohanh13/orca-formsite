@@ -25,7 +25,6 @@
         }
       });
 
-      const result = await response.json();
       alert('Survey submitted successfully!');
       document.getElementById('surveyForm').reset();
     } catch (error) {
