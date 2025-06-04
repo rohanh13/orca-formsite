@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
       }
 
-      const formGroups = document.getElementsByClassName("form-group");
+      const formGroups = document.getElementsByClassName("form-group","form-group-sa");
       for (let i = 0; i < formGroups.length; i++) {
         const label = formGroups[i].querySelector("label");
         if (label && label.textContent.includes("(diagnosis)")) {
