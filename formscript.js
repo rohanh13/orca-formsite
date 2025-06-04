@@ -14,16 +14,19 @@ document.addEventListener("DOMContentLoaded", () => {
         return arr[Math.floor(Math.random() * arr.length)];
       }
 
-      randomDiag = pickRandom(diagValues); // Save to global variable
+      const randomDiag = pickRandom(diagValues); // Save to local variable
 
       const para = document.getElementById("para1");
       if (para) {
         para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
       }
 
-      const label = document.getElementsByClassName("form-group");
-      if (label) {
-        label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
+      const formGroups = document.getElementsByClassName("form-group");
+      for (let i = 0; i < formGroups.length; i++) {
+        const label = formGroups[i].querySelector("label");
+        if (label && label.textContent.includes("(diagnosis)")) {
+          label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
+        }
       }
     })
     .catch(error => console.error('Error loading diagnoses.json:', error));
