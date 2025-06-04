@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orca Medical Technology</title>
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="formstyle.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="wrapper">
+    <header class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-logo">
+        <img class="nav-logo-img" src="images/logo.png" alt="Orca MedTech logo" />
+        <span class="nav-brand-text">Orca MedTech Surveys</span>
+      </div>
+      <button class="burger" aria-label="Toggle menu">&#9776;</button>
+      <nav class="nav-links">
+        <a href="#survey-history">Survey History</a>
+        <a href="#rewards">My Rewards</a>
+      </nav>
+    </header>
+
+    <main class="body">
+      <section class="form-section">
+        <h2>Survey Form</h2>
+        <form id="surveyForm">
+          <!-- Multiple Choice Questions -->
+          <div class="form-group">
+            <label for="question1">1. What is your age group?</label>
+            <select name="question1" id="question1" required>
+              <option value="">Select an option</option>
+              <option value="Under 18">Under 18</option>
+              <option value="18-24">18–24</option>
+              <option value="25-34">25–34</option>
+              <option value="35-44">35–44</option>
+              <option value="45+">45+</option>
+            </select>
+          </div>
+
+          <!-- Repeat similarly for Questions 2 to 9 -->
+          <div class="form-group">
+            <label for="question2">2. Question 2 text here</label>
+            <select name="question2" id="question2" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="question3">3. Question 3 text here</label>
+            <select name="question3" id="question3" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="question4">4. Question 4 text here</label>
+            <select name="question4" id="question4" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="question5">5. Question 5 text here</label>
+            <select name="question5" id="question5" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="question6">6. Question 6 text here</label>
+            <select name="question6" id="question6" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="question7">7. Question 7 text here</label>
+            <select name="question7" id="question7" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="question8">8. Question 8 text here</label>
+            <select name="question8" id="question8" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="question9">9. Question 9 text here</label>
+            <select name="question9" id="question9" required>
+              <option value="">Select an option</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+
+          <!-- Short Answer Questions -->
+          <div class="form-group">
+            <label for="question10">10. Please describe your symptoms:</label>
+            <textarea id="question10" name="question10" rows="3" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="question11">11. Additional comments:</label>
+            <textarea id="question11" name="question11" rows="3"></textarea>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+     
+
+    <footer class="footer-bar">
+      <div class="footer-content">
+        <a href="/privacypolicy.html">Privacy Policy</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/legal.html">Legal</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- bottom-fade script (optional) -->
+  <script>
+    const fade = document.querySelector('.bottom-fade');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight;
+      const winHeight = window.innerHeight;
+      const scrollBottom = scrollTop + winHeight;
+      const distanceFromBottom = docHeight - scrollBottom;
+      if (fade) {
+        fade.style.opacity = distanceFromBottom < 150 ? distanceFromBottom / 150 : 1;
+      }
+    });
+  </script>
+
+  <!-- Include your script at the end so DOM is ready -->
+  <script src="formscript.js"></script>
+</body>
+</html>
