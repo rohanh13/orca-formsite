@@ -28,14 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
           label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
         }
       }
-
-      const formGroupsSa = document.getElementsByClassName("form-group-sa");
-      for (let i = 0; i < formGroupsSa.length; i++) {
-        const label = formGroupsSa[i].querySelector("label");
-        if (label && label.textContent.includes("(diagnosis)")) {
-          label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
-        }
-      }
     })
     .catch(error => console.error('Error loading diagnoses.json:', error));
 });
