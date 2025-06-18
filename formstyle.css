@@ -1,4 +1,9 @@
 /* Reset and Box Model */
+.bold{
+  font-weight: bold;
+  color:#0066cc
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -82,11 +87,6 @@ main {
 /* Body Sections */
 .body {
   padding: 100px 20px 20px
-}
-
-.bold{
-  font-weight: bold;
-  color:#0066cc
 }
 
 .brackets{

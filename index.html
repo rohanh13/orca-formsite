@@ -26,7 +26,7 @@
         <h2>Survey Form</h2>
 
         <p class="para1" id="para1">
-          Please answer the following questions based on <span class="bold">(diagnosis)</span>
+          Please answer the following questions based on <span class="bold">(diagnosis)</span>. If you do not know an answer, or if it does not apply to the case, please leave the question blank.
         </p>
         
         <form id="surveyForm">
@@ -45,7 +45,7 @@
             <label>2. For which sex is (diagnosis) most prevalent?</label><br>
             <label><input type="checkbox" name="question2" value="Male"> Males</label><br>
             <label><input type="checkbox" name="question2" value="Female"> Females</label><br>
-            <label><input type="checkbox" name="question2" value="Neither"> Both sexes, equally</label>
+            <label><input type="checkbox" name="question2" value="Both"> Both sexes, equally</label>
           </div>
 
           <div class="form-group">
@@ -100,31 +100,46 @@
           </div>
 
           <div class="form-group">
-            <label>7. Does (diagnosis) usually arise from an injury, spontaneously, or both?</label><br>
-            <label><input type="checkbox" name="question7" value="FromInjury"> From an injury</label><br>
-            <label><input type="checkbox" name="question7" value="Spontaneously"> Spontaneously</label>
+            <label>7. How might a patient describe the pain associated with (diagnosis), usually?</label><br>
+            <label><input type="checkbox" name="question7" value="Severe"> Severe pain (>7 / 10)</label><br>
+            <label><input type="checkbox" name="question7" value="Moderate"> Moderate pain (4-6 / 10)</label><br>
+            <label><input type="checkbox" name="question7" value="Mild"> Mild pain (1-3 / 10)</label><br>
+            <label><input type="checkbox" name="question7" value="None"> Not painful at all (0 / 10)</label>
           </div>
 
           <div class="form-group">
-            <label>8. From onset, how does the pain/discomfort feel?</label><br>
-            <label><input type="checkbox" name="question8" value="Constant"> Constant pain or discomfort</label><br>
-            <label><input type="checkbox" name="question8" value="Intermittent"> Intermittent pain or discomfort</label><br>
-            <label><input type="checkbox" name="question8" value="Conditional"> Pain or discomfort only in certain conditions/actions</label>
+            <label>8. How does (diagnosis) usually arise?</label><br>
+            <label><input type="checkbox" name="question8" value="FromInjury"> From an injury</label><br>
+            <label><input type="checkbox" name="question8" value="Hereditary"> Hereditary</label><br>
+            <label><input type="checkbox" name="question8" value="Congenital"> Congenital</label><br>
+            <label><input type="checkbox" name="question8" value="Spontaneously"> Spontaneously</label>
+          </div>
+
+          <div class="form-group">
+            <label>9. From onset, how does the pain/discomfort feel?</label><br>
+            <label><input type="checkbox" name="question9" value="Constant"> Constant pain or discomfort</label><br>
+            <label><input type="checkbox" name="question9" value="Intermittent"> Intermittent pain or discomfort</label><br>
+            <label><input type="checkbox" name="question9" value="Conditional"> Pain or discomfort only in certain conditions/actions</label>
           </div>
 
           <div class="form-group-sa">
-            <label for="question9">9. If the pain/discomfort only arises in certain conditions, what are those conditions? <span class="brackets">(eating, urinating, lifting weights, etc.?)</span></label>
-            <textarea id="question9" name="question9" rows="3"></textarea>
-          </div>
-
-          <div class="form-group-sa">
-            <label for="question10">10. Please write any extra information which would help a fellow physician diagnose this properly.</label>
+            <label for="question10">10. If the pain/discomfort only arises in certain conditions, what are those conditions? <span class="brackets">(eating, urinating, lifting weights, etc.?)</span></label>
             <textarea id="question10" name="question10" rows="3"></textarea>
           </div>
 
           <div class="form-group-sa">
-            <label for="question11">11. Briefly explain how you would go about treating this.</label>
-            <textarea id="question11" name="question11" rows="3" required></textarea>
+            <label for="question11">11. Aside from those listed above, are there any outward symptoms commonly associated with (diagnosis)? <span class="brackets">(coughing, fever, constipation, etc.?)</span></label>
+            <textarea id="question11" name="question11" rows="3"></textarea>
+          </div>
+
+          <div class="form-group-sa">
+            <label for="question12">12. Please write down any pertinent details that we may have missed and/or were not addressed above</label>
+            <textarea id="question12" name="question12" rows="3"></textarea>
+          </div>
+
+          <div class="form-group-sa">
+            <label for="question13">13. Briefly explain how you would go about treating (diagnosis).</label>
+            <textarea id="question13" name="question13" rows="3" required></textarea>
           </div>
 
           <button type="submit">Submit</button>
