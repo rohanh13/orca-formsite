@@ -58,9 +58,11 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
     question6: getCheckboxValues('question6'),
     question7: getCheckboxValues('question7'),
     question8: getCheckboxValues('question8'),
-    question9: document.getElementById('question9').value,
-    question10: document.getElementById('question10').value,
-    question11: document.getElementById('question11').value
+    question9: getCheckboxValues('question9'),
+    question10: getCheckboxValues('question10'),
+    question11: document.getElementById('question11').value,
+    question12: document.getElementById('question12').value,
+    question13: document.getElementById('question13').value,
   };
 
   try {
