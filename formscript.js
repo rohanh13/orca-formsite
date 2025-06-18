@@ -9,21 +9,27 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const diagValues = getValidValues('diag');
+      const randomDiag = diagValues[Math.floor(Math.random() * diagValues.length)];
 
-      function pickRandom(arr) {
-        return arr[Math.floor(Math.random() * arr.length)];
-      }
-
-      randomDiag = pickRandom(diagValues); // Save to local variable
-
+      // Replace in main paragraph
       const para = document.getElementById("para1");
       if (para) {
-        para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
+        para.innerHTML = para.innerHTML.replace("(diagnosis)", randomDiag);
       }
 
-      const formGroups = document.getElementsByClassName("form-group","form-group-sa");
+      // Replace in form-group
+      const formGroups = document.getElementsByClassName("form-group");
       for (let i = 0; i < formGroups.length; i++) {
         const label = formGroups[i].querySelector("label");
+        if (label && label.textContent.includes("(diagnosis)")) {
+          label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
+        }
+      }
+
+      // Replace in form-group-sa (use a different variable name!)
+      const formGroupsSA = document.getElementsByClassName("form-group-sa");
+      for (let i = 0; i < formGroupsSA.length; i++) {
+        const label = formGroupsSA[i].querySelector("label");
         if (label && label.textContent.includes("(diagnosis)")) {
           label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
         }
