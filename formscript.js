@@ -9,15 +9,18 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const diagValues = getValidValues('diag');
-      const randomDiag = diagValues[Math.floor(Math.random() * diagValues.length)];
 
-      // Replace in main paragraph
-      const para = document.getElementById("para1");
-      if (para) {
-        para.innerHTML = para.innerHTML.replace("(diagnosis)", randomDiag);
+      function pickRandom(arr) {
+        return arr[Math.floor(Math.random() * arr.length)];
       }
 
-      // Replace in form-group
+      randomDiag = pickRandom(diagValues); // Save to local variable
+
+      const para = document.getElementById("para1");
+      if (para) {
+        para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
+      }
+
       const formGroups = document.getElementsByClassName("form-group");
       for (let i = 0; i < formGroups.length; i++) {
         const label = formGroups[i].querySelector("label");
@@ -26,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
 
-      // Replace in form-group-sa (use a different variable name!)
       const formGroupsSA = document.getElementsByClassName("form-group-sa");
       for (let i = 0; i < formGroupsSA.length; i++) {
         const label = formGroupsSA[i].querySelector("label");
