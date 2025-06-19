@@ -39,7 +39,7 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #afafaf;
+  background-color: #1f1f1f;
   border-bottom: 2px solid #009ee1;
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@ main {
 .nav-logo {
   display: flex;
   align-items: center;
-  color: #1f1f1f;
+  color: #009ee1;
   font-size: 36px;
   font-weight: bold;
 }
@@ -64,7 +64,7 @@ main {
 }
 
 .nav-links a {
-  color: #1f1f1f;
+  color: #ffffff;
   text-decoration: none;
   margin-left: 50px;
   font-size: 24px;
@@ -81,7 +81,7 @@ main {
   background: none;
   border: none;
   cursor: pointer;
-  color: #1f1f1f;
+  color: #009ee1;
 }
 
 /* Body Sections */
@@ -175,15 +175,15 @@ cursor: default;
 
 /* Footer */
 .footer-bar {
-  background-color: #afafaf;
-  color: #1f1f1f;
+  background-color: #1f1f1f;
+  color: #ffffff;
   padding: 20px 30px;
   text-align: center;
   width: 100%;
 }
 
 .footer-bar a {
-  color: #1f1f1f;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 15px;
   transition: color 0.3s ease;

@@ -1,6 +1,11 @@
 let randomDiag = ''; 
 
 document.addEventListener("DOMContentLoaded", () => {
+    if (sessionStorage.getItem("fromSubmit") === "true") {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    sessionStorage.removeItem("fromSubmit");
+  }
+
   fetch('diagnoses.json')
     .then(res => res.json())
     .then(data => {
@@ -83,6 +88,7 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
     submitBtn.disabled = true;
 
     setTimeout(() => {
+      sessionStorage.setItem("fromSubmit", "true");
       location.reload();
     }, 2000);
 
