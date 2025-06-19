@@ -78,11 +78,16 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
     });
 
     const submitBtn = document.querySelector('button[type="submit"]');
-      submitBtn.style.backgroundColor = '#28a745'; // Bootstrap-style green
-      submitBtn.textContent = 'Submitting...';
-      submitBtn.disabled = true;
+    submitBtn.style.backgroundColor = '#28a745'; // Bootstrap-style green
+    submitBtn.textContent = 'Submitting...';
+    submitBtn.disabled = true;
 
-      setTimeout(() => {
-        location.reload();
-      }, 2000);
+    setTimeout(() => {
+      location.reload();
+    }, 2000);
+
+  } catch (error) {
+    console.error('Submission error:', error);
+    alert('Error submitting form.');
+  }
 });
