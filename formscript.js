@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const para = document.getElementById("para1");
       if (para) {
-        para.textContent = para.textContent.replace("(diagnosis)", randomDiag);
+        para.innerHTML = para.innerHTML.replace("(diagnosis)", `<span class="bold">${randomDiag}</span>`);
       }
 
       const formGroups = document.getElementsByClassName("form-group");
@@ -61,7 +61,7 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
     question7: getCheckboxValues('question7'),
     question8: getCheckboxValues('question8'),
     question9: getCheckboxValues('question9'),
-    question10: getCheckboxValues('question10'),
+    question10: document.getElementById('question10').value,
     question11: document.getElementById('question11').value,
     question12: document.getElementById('question12').value,
     question13: document.getElementById('question13').value,
