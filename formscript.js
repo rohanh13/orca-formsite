@@ -28,6 +28,14 @@ document.addEventListener("DOMContentLoaded", () => {
         para.innerHTML = para.innerHTML.replace("(diagnosis)", `<span class="bold">${randomDiag}</span>`);
       }
 
+      const title = document.getElementsByClassName("form-section");
+      for (let i = 0; i < title.length; i++) {
+        const label = title[i].querySelector("label");
+        if (label && label.textContent.includes("(diagnosis)")) {
+          label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
+        }
+      }
+
       const formGroups = document.getElementsByClassName("form-group");
       for (let i = 0; i < formGroups.length; i++) {
         const label = formGroups[i].querySelector("label");
