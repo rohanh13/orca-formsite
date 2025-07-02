@@ -28,12 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
         para.innerHTML = para.innerHTML.replace("(diagnosis)", `<span class="bold">${randomDiag}</span>`);
       }
 
-      const title = document.getElementsByClassName("form-section");
-      for (let i = 0; i < title.length; i++) {
-        const label = title[i].querySelector("label");
-        if (label && label.textContent.includes("(diagnosis)")) {
-          label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
-        }
+      const h2t = document.getElementById("h2");
+      if (h2t) {
+        h2t.innerHTML = h2t.innerHTML.replace("(diagnosis)", `<span class="bold">${randomDiag}</span>`);
       }
 
       const formGroups = document.getElementsByClassName("form-group");
