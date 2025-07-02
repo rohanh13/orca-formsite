@@ -1,9 +1,11 @@
 let randomDiag = ''; 
 
 document.addEventListener("DOMContentLoaded", () => {
-    if (sessionStorage.getItem("fromSubmit") === "true") {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    sessionStorage.removeItem("fromSubmit");
+  if (sessionStorage.getItem("fromSubmit") === "true") {
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      sessionStorage.removeItem("fromSubmit");
+    }, 100); // delay 100ms to ensure scroll works
   }
 
   fetch('diagnoses.json')
@@ -48,7 +50,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.getElementById('surveyForm').addEventListener('submit', async function (e) {
   e.preventDefault();
 
-  // Helper to get all selected checkbox values
+  const submitBtn = document.querySelector('button[type="submit"]');
+  // Change button appearance immediately on click
+  submitBtn.textContent = 'Submitting...';
+  submitBtn.style.backgroundColor = '#28a745'; // green
+  submitBtn.classList.add('submitting');
+  submitBtn.disabled = true;
+
+  // Prepare form data as before
   const getCheckboxValues = (name) => {
     return Array.from(document.querySelectorAll(`input[name="${name}"]:checked`))
       .map(cb => cb.value)
@@ -82,11 +91,7 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
       }
     });
 
-    const submitBtn = document.querySelector('button[type="submit"]');
-    submitBtn.style.backgroundColor = '#28a745'; // Bootstrap-style green
-    submitBtn.textContent = 'Submitting...';
-    submitBtn.disabled = true;
-
+    // After successful submit: reload after 2 seconds
     setTimeout(() => {
       sessionStorage.setItem("fromSubmit", "true");
       location.reload();
@@ -95,5 +100,10 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
   } catch (error) {
     console.error('Submission error:', error);
     alert('Error submitting form.');
+    // Optionally re-enable button on failure
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Submit';
+    submitBtn.style.backgroundColor = '';
+    submitBtn.classList.remove('submitting');
   }
 });

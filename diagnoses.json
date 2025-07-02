@@ -1,135 +1,90 @@
 [
   {
-    "diag": "Achilles tendinitis"
+    "diag": "Concussion"
   },
   {
-    "diag": "Adhesive capsulitis"
+    "diag": "Fractured Nose"
   },
   {
-    "diag": "Ankle sprain"
+    "diag": "Dislocated Jaw"
   },
   {
-    "diag": "Anterior cruciate ligament (ACL) tear"
+    "diag": "Intracranial Bleed"
   },
   {
-    "diag": "Avascular necrosis"
+    "diag": "Migraine"
   },
   {
-    "diag": "Biceps tendinitis"
+    "diag": "Tinnitus"
   },
   {
-    "diag": "Bone fracture"
+    "diag": "Whiplash"
   },
   {
-    "diag": "Bursitis"
+    "diag": "Herniated Cervical Disc"
   },
   {
-    "diag": "Carpal tunnel syndrome"
+    "diag": "Herniated Lumbar Disc"
   },
   {
-    "diag": "Cervical radiculopathy"
+    "diag": "Cervical Spine Fracture"
   },
   {
-    "diag": "Cervical spondylosis"
+    "diag": "Lumbar Spine Fracture"
   },
   {
-    "diag": "Chondromalacia patellae"
+    "diag": "Rheumatoid Arthritis"
   },
   {
-    "diag": "Compartment syndrome"
+    "diag": "Meningitis"
   },
   {
-    "diag": "Costochondritis"
+    "diag": "Finger Sprain"
   },
   {
-    "diag": "De Quervain's tenosynovitis"
+    "diag": "Dislocated Finger"
   },
   {
-    "diag": "Degenerative disc disease"
+    "diag": "Mallet Finger"
   },
   {
-    "diag": "Disc herniation"
+    "diag": "Subungual Hematoma"
   },
   {
-    "diag": "Dupuytren's contracture"
+    "diag": "Achilles Tendonitis"
   },
   {
-    "diag": "Epicondylitis"
+    "diag": "ACL Tear"
   },
   {
-    "diag": "Facet joint syndrome"
+    "diag": "PCL Tear"
   },
   {
-    "diag": "Fibromyalgia"
+    "diag": "MCL Tear"
   },
   {
-    "diag": "Flatfoot (pes planus)"
+    "diag": "LCL Tear"
   },
   {
-    "diag": "Ganglion cyst"
+    "diag": "Shoulder Dislocation"
   },
   {
-    "diag": "Gout"
+    "diag": "Ankle Sprain"
   },
   {
-    "diag": "Hammer toe"
+    "diag": "Bicep Tendonitis"
   },
   {
-    "diag": "Heel spur"
+    "diag": "Shin Splints (MTSS)"
   },
   {
-    "diag": "Herniated disc"
+    "diag": "Bunions"
   },
   {
-    "diag": "Hip labral tear"
+    "diag": "Carpal Tunnel Syndrome"
   },
   {
-    "diag": "Iliotibial band syndrome"
-  },
-  {
-    "diag": "Joint dislocation"
-  },
-  {
-    "diag": "Kyphosis"
-  },
-  {
-    "diag": "Lordosis"
-  },
-  {
-    "diag": "Lumbar radiculopathy"
-  },
-  {
-    "diag": "Lumbar spondylosis"
-  },
-  {
-    "diag": "Meniscal tear"
-  },
-  {
-    "diag": "Morton’s neuroma"
-  },
-  {
-    "diag": "Muscle strain"
-  },
-  {
-    "diag": "Myofascial pain syndrome"
-  },
-  {
-    "diag": "Osteoarthritis"
-  },
-  {
-    "diag": "Osteochondritis dissecans"
-  },
-  {
-    "diag": "Osteogenesis imperfecta"
-  },
-  {
-    "diag": "Osteomalacia"
-  },
-  {
-    "diag": "Osteomyelitis"
-  },
-  {
-    "diag": "Osteonecrosis"
+    "diag": "Osteosarcoma"
   },
   {
     "diag": "Osteopenia"
@@ -138,771 +93,249 @@
     "diag": "Osteoporosis"
   },
   {
-    "diag": "Patellar tendinitis"
+    "diag": "Clavicle Fracture"
   },
   {
-    "diag": "Patellofemoral pain syndrome"
+    "diag": "Degenerative Joint Disease"
   },
   {
-    "diag": "Pes cavus"
+    "diag": "Diabetic Foot Disease"
   },
   {
-    "diag": "Plantar fasciitis"
+    "diag": "Knee Dislocation"
   },
   {
-    "diag": "Polymyalgia rheumatica"
+    "diag": "Hip Dislocation"
   },
   {
-    "diag": "Posterior cruciate ligament (PCL) tear"
+    "diag": "Elbow Dislocation"
   },
   {
-    "diag": "Rheumatoid arthritis"
+    "diag": "Tennis Elbow"
   },
   {
-    "diag": "Rotator cuff tear"
+    "diag": "Golfers Elbow"
   },
   {
-    "diag": "Sacroiliitis"
+    "diag": "Hip Dysplasia"
   },
   {
-    "diag": "Sciatica"
+    "diag": "Fifth Metatarsal Fracture"
   },
   {
-    "diag": "Scoliosis"
+    "diag": "Labral Tear"
   },
   {
-    "diag": "Shin splints"
+    "diag": "Meniscus Tear"
   },
   {
-    "diag": "Shoulder impingement syndrome"
+    "diag": "Osgood Schlatter Disease"
   },
   {
-    "diag": "Spinal stenosis"
+    "diag": "Patellar Tendonitis"
   },
   {
-    "diag": "Spondylolisthesis"
+    "diag": "Patellofemoral Pain (runner's knee)"
   },
   {
-    "diag": "Spondylolysis"
+    "diag": "Plantar Fasciitis"
   },
   {
-    "diag": "Sprain"
+    "diag": "Scaphoid Fracture"
   },
   {
-    "diag": "Stress fracture"
+    "diag": "Torn Rotator Cuff"
   },
   {
-    "diag": "Tendinitis"
+    "diag": "Sports Hernia"
   },
   {
-    "diag": "Tennis elbow"
+    "diag": "Metatarsophalangeal Joint Sprain (turf toe)"
   },
   {
-    "diag": "Thoracic outlet syndrome"
+    "diag": "Trochanteric Bursitis"
   },
   {
-    "diag": "Torticollis"
+    "diag": "Wrist Tendonitis"
   },
   {
-    "diag": "Trochanteric bursitis"
+    "diag": "Distal Radius Fracture"
   },
   {
-    "diag": "Whiplash"
+    "diag": "Subconjunctival Hemorrhage"
   },
   {
-    "diag": "Wrist sprain"
-  },
-  {
-    "diag": "Zygapophyseal joint dysfunction"
-  },
-  {
-    "diag": "Addison’s disease"
-  },
-  {
-    "diag": "Alopecia areata"
-  },
-  {
-    "diag": "Amyloidosis"
-  },
-  {
-    "diag": "Ankylosing spondylitis"
-  },
-  {
-    "diag": "Antiphospholipid syndrome"
-  },
-  {
-    "diag": "Autoimmune hepatitis"
-  },
-  {
-    "diag": "Autoimmune pancreatitis"
-  },
-  {
-    "diag": "Autoimmune thyroiditis"
-  },
-  {
-    "diag": "Behçet’s disease"
-  },
-  {
-    "diag": "Bullous pemphigoid"
-  },
-  {
-    "diag": "Celiac disease"
-  },
-  {
-    "diag": "Churg-Strauss syndrome"
-  },
-  {
-    "diag": "Crohn’s disease"
-  },
-  {
-    "diag": "Dermatomyositis"
-  },
-  {
-    "diag": "Discoid lupus erythematosus"
-  },
-  {
-    "diag": "Eosinophilic esophagitis"
-  },
-  {
-    "diag": "Eosinophilic fasciitis"
-  },
-  {
-    "diag": "Evans syndrome"
-  },
-  {
-    "diag": "Giant cell arteritis"
-  },
-  {
-    "diag": "Goodpasture’s syndrome"
-  },
-  {
-    "diag": "Graves’ disease"
-  },
-  {
-    "diag": "Guillain-Barré syndrome"
-  },
-  {
-    "diag": "Hashimoto’s thyroiditis"
-  },
-  {
-    "diag": "Hemolytic anemia"
-  },
-  {
-    "diag": "Henoch-Schönlein purpura"
-  },
-  {
-    "diag": "Hidradenitis suppurativa"
-  },
-  {
-    "diag": "IgA nephropathy"
-  },
-  {
-    "diag": "Immune thrombocytopenic purpura"
-  },
-  {
-    "diag": "Inclusion body myositis"
-  },
-  {
-    "diag": "Interstitial cystitis"
-  },
-  {
-    "diag": "Juvenile idiopathic arthritis"
-  },
-  {
-    "diag": "Kawasaki disease"
-  },
-  {
-    "diag": "Lambert-Eaton myasthenic syndrome"
-  },
-  {
-    "diag": "Lichen planus"
-  },
-  {
-    "diag": "Lichen sclerosus"
-  },
-  {
-    "diag": "Linear IgA disease"
-  },
-  {
-    "diag": "Lupus nephritis"
-  },
-  {
-    "diag": "Microscopic polyangiitis"
-  },
-  {
-    "diag": "Mixed connective tissue disease"
-  },
-  {
-    "diag": "Multiple sclerosis"
-  },
-  {
-    "diag": "Myasthenia gravis"
-  },
-  {
-    "diag": "Myositis"
-  },
-  {
-    "diag": "Neuromyelitis optica"
-  },
-  {
-    "diag": "Optic neuritis"
-  },
-  {
-    "diag": "Palindromic rheumatism"
-  },
-  {
-    "diag": "Paraneoplastic cerebellar degeneration"
-  },
-  {
-    "diag": "Pemphigus vulgaris"
-  },
-  {
-    "diag": "Pernicious anemia"
-  },
-  {
-    "diag": "Polyarteritis nodosa"
-  },
-  {
-    "diag": "Polyglandular autoimmune syndrome"
-  },
-  {
-    "diag": "Polymyositis"
-  },
-  {
-    "diag": "Primary biliary cholangitis"
-  },
-  {
-    "diag": "Primary sclerosing cholangitis"
-  },
-  {
-    "diag": "Psoriasis"
-  },
-  {
-    "diag": "Psoriatic arthritis"
-  },
-  {
-    "diag": "Raynaud’s phenomenon"
-  },
-  {
-    "diag": "Reactive arthritis"
-  },
-  {
-    "diag": "Relapsing polychondritis"
-  },
-  {
-    "diag": "Rheumatic fever"
-  },
-  {
-    "diag": "Sarcoidosis"
-  },
-  {
-    "diag": "Scleroderma"
-  },
-  {
-    "diag": "Sjögren’s syndrome"
-  },
-  {
-    "diag": "Stiff person syndrome"
-  },
-  {
-    "diag": "Systemic lupus erythematosus"
-  },
-  {
-    "diag": "Takayasu’s arteritis"
-  },
-  {
-    "diag": "Temporal arteritis"
-  },
-  {
-    "diag": "Thrombotic thrombocytopenic purpura"
-  },
-  {
-    "diag": "Transverse myelitis"
-  },
-  {
-    "diag": "Type 1 diabetes mellitus"
-  },
-  {
-    "diag": "Ulcerative colitis"
-  },
-  {
-    "diag": "Uveitis"
-  },
-  {
-    "diag": "Vasculitis"
-  },
-  {
-    "diag": "Vitiligo"
-  },
-  {
-    "diag": "Vogt-Koyanagi-Harada disease"
-  },
-  {
-    "diag": "Abdominal aortic aneurysm"
-  },
-  {
-    "diag": "Achalasia"
-  },
-  {
-    "diag": "Acute pancreatitis"
-  },
-  {
-    "diag": "Adrenal insufficiency"
-  },
-  {
-    "diag": "Alcoholic liver disease"
+    "diag": "Irritable Bowel Syndrome"
   },
   {
     "diag": "Appendicitis"
   },
   {
-    "diag": "Barrett's esophagus"
-  },
-  {
-    "diag": "Biliary colic"
-  },
-  {
-    "diag": "Biliary dyskinesia"
-  },
-  {
-    "diag": "Biliary tract obstruction"
-  },
-  {
-    "diag": "Bladder cancer"
-  },
-  {
-    "diag": "Bladder infection"
-  },
-  {
-    "diag": "Bowel obstruction"
-  },
-  {
-    "diag": "Brain abscess"
-  },
-  {
-    "diag": "Brain tumor"
-  },
-  {
-    "diag": "Bronchiectasis"
-  },
-  {
-    "diag": "Bronchitis"
-  },
-  {
-    "diag": "Cardiac tamponade"
-  },
-  {
-    "diag": "Cardiomyopathy"
-  },
-  {
-    "diag": "Carotid artery disease"
-  },
-  {
-    "diag": "Celiac artery compression syndrome"
-  },
-  {
-    "diag": "Cerebral aneurysm"
-  },
-  {
-    "diag": "Cerebral palsy"
-  },
-  {
-    "diag": "Cervical cancer"
-  },
-  {
-    "diag": "Cholecystitis"
-  },
-  {
-    "diag": "Cholelithiasis"
-  },
-  {
-    "diag": "Chronic kidney disease"
-  },
-  {
-    "diag": "COPD"
-  },
-  {
-    "diag": "Cirrhosis"
-  },
-  {
-    "diag": "Colitis"
-  },
-  {
-    "diag": "Colon cancer"
-  },
-  {
-    "diag": "Congenital heart disease"
-  },
-  {
-    "diag": "Congestive heart failure"
-  },
-  {
-    "diag": "Coronary artery disease"
-  },
-  {
-    "diag": "Cystic fibrosis"
-  },
-  {
-    "diag": "Deep vein thrombosis"
-  },
-  {
-    "diag": "Diabetes mellitus type 2"
-  },
-  {
-    "diag": "Diverticulitis"
-  },
-  {
-    "diag": "Duodenal ulcer"
-  },
-  {
-    "diag": "Dyspepsia"
-  },
-  {
-    "diag": "Dysphagia"
-  },
-  {
-    "diag": "Endocarditis"
-  },
-  {
-    "diag": "Endometrial cancer"
-  },
-  {
-    "diag": "Endometriosis"
-  },
-  {
-    "diag": "Epilepsy"
-  },
-  {
-    "diag": "Esophageal cancer"
-  },
-  {
-    "diag": "Esophagitis"
-  },
-  {
-    "diag": "Fatty liver disease"
-  },
-  {
-    "diag": "Gallbladder cancer"
+    "diag": "Kidney Stones"
   },
   {
     "diag": "Gallstones"
   },
   {
-    "diag": "Gastric cancer"
+    "diag": "Rotator Cuff Tendon Impingement"
   },
   {
-    "diag": "Gastric ulcer"
+    "diag": "Frozen Shoulder"
   },
   {
-    "diag": "Gastritis"
+    "diag": "Spinal Stenosis"
   },
   {
-    "diag": "Gastroenteritis"
+    "diag": "Sciatica"
   },
   {
     "diag": "GERD"
   },
   {
-    "diag": "Glomerulonephritis"
-  },
-  {
-    "diag": "Hemochromatosis"
-  },
-  {
-    "diag": "Hemorrhoids"
-  },
-  {
-    "diag": "Hepatic encephalopathy"
-  },
-  {
-    "diag": "Hepatitis A"
-  },
-  {
-    "diag": "Hepatitis B"
-  },
-  {
-    "diag": "Hepatitis C"
-  },
-  {
-    "diag": "Hiatal hernia"
-  },
-  {
-    "diag": "Hyperparathyroidism"
-  },
-  {
-    "diag": "Hyperthyroidism"
-  },
-  {
-    "diag": "Hypoparathyroidism"
-  },
-  {
-    "diag": "Hypothyroidism"
-  },
-  {
-    "diag": "Inflammatory bowel disease"
-  },
-  {
-    "diag": "Influenza"
-  },
-  {
-    "diag": "Interstitial lung disease"
-  },
-  {
-    "diag": "Intestinal ischemia"
-  },
-  {
-    "diag": "Irritable bowel syndrome"
-  },
-  {
-    "diag": "Kidney cancer"
-  },
-  {
-    "diag": "Kidney stones"
-  },
-  {
-    "diag": "Lactose intolerance"
-  },
-  {
-    "diag": "Laryngeal cancer"
-  },
-  {
-    "diag": "Laryngitis"
-  },
-  {
-    "diag": "Leukemia"
-  },
-  {
-    "diag": "Liver cancer"
-  },
-  {
-    "diag": "Liver failure"
-  },
-  {
-    "diag": "Lung cancer"
-  },
-  {
-    "diag": "Lupus nephritis"
-  },
-  {
-    "diag": "Lymphoma"
-  },
-  {
-    "diag": "Malaria"
-  },
-  {
-    "diag": "Meningitis"
-  },
-  {
-    "diag": "Menstrual disorders"
-  },
-  {
-    "diag": "Migraine"
-  },
-  {
-    "diag": "Multiple endocrine neoplasia"
-  },
-  {
-    "diag": "Myocardial infarction"
-  },
-  {
-    "diag": "Myocarditis"
-  },
-  {
-    "diag": "Nephrotic syndrome"
-  },
-  {
-    "diag": "Non-alcoholic fatty liver disease"
-  },
-  {
-    "diag": "Obesity"
-  },
-  {
-    "diag": "Ovarian cancer"
-  },
-  {
-    "diag": "Pancreatic cancer"
-  },
-  {
-    "diag": "Pancreatitis"
-  },
-  {
-    "diag": "Parkinson's disease"
-  },
-  {
-    "diag": "Peptic ulcer disease"
+    "diag": "Pulmonary Hypertension"
   },
   {
     "diag": "Pericarditis"
   },
   {
-    "diag": "Peripheral artery disease"
+    "diag": "Stomach Ulcers"
   },
   {
-    "diag": "Peritonitis"
+    "diag": "Gastritis"
   },
   {
-    "diag": "Pheochromocytoma"
-  },
-  {
-    "diag": "Pituitary adenoma"
-  },
-  {
-    "diag": "Pleural effusion"
+    "diag": "Pancreatitis"
   },
   {
     "diag": "Pneumonia"
   },
   {
-    "diag": "Pneumothorax"
+    "diag": "Rib Fracture"
   },
   {
-    "diag": "Polycystic kidney disease"
+    "diag": "Shingles"
   },
   {
-    "diag": "Portal hypertension"
+    "diag": "Myocarditis"
   },
   {
-    "diag": "Prostate cancer"
+    "diag": "Angina"
   },
   {
-    "diag": "Prostatitis"
-  },
-  {
-    "diag": "Pulmonary embolism"
-  },
-  {
-    "diag": "Pulmonary fibrosis"
-  },
-  {
-    "diag": "Pyelonephritis"
-  },
-  {
-    "diag": "Rectal cancer"
-  },
-  {
-    "diag": "Renal artery stenosis"
-  },
-  {
-    "diag": "Renal cell carcinoma"
-  },
-  {
-    "diag": "Renal failure"
-  },
-  {
-    "diag": "Respiratory distress syndrome"
-  },
-  {
-    "diag": "Rheumatic heart disease"
-  },
-  {
-    "diag": "Sepsis"
-  },
-  {
-    "diag": "Short bowel syndrome"
-  },
-  {
-    "diag": "Sickle cell anemia"
-  },
-  {
-    "diag": "Sinusitis"
-  },
-  {
-    "diag": "Sleep apnea"
-  },
-  {
-    "diag": "Small intestinal bacterial overgrowth"
-  },
-  {
-    "diag": "Spinal cord injury"
-  },
-  {
-    "diag": "Splenomegaly"
-  },
-  {
-    "diag": "Stomach cancer"
-  },
-  {
-    "diag": "Stroke"
-  },
-  {
-    "diag": "Subarachnoid hemorrhage"
-  },
-  {
-    "diag": "Systemic inflammatory response syndrome"
-  },
-  {
-    "diag": "Testicular cancer"
-  },
-  {
-    "diag": "Thalassemia"
-  },
-  {
-    "diag": "Thyroid cancer"
-  },
-  {
-    "diag": "Thyroiditis"
-  },
-  {
-    "diag": "Tonsillitis"
-  },
-  {
-    "diag": "Toxic megacolon"
-  },
-  {
-    "diag": "Tracheal stenosis"
-  },
-  {
-    "diag": "Trigeminal neuralgia"
+    "diag": "Pleurisy"
   },
   {
     "diag": "Tuberculosis"
   },
   {
-    "diag": "Ulcerative colitis"
+    "diag": "Urinary Tract Infection"
   },
   {
-    "diag": "Urinary incontinence"
+    "diag": "Peritonitis"
   },
   {
-    "diag": "Urinary tract infection"
+    "diag": "Ovarian Cysts"
   },
   {
-    "diag": "Urolithiasis"
+    "diag": "Cystitis"
   },
   {
-    "diag": "Uterine fibroids"
+    "diag": "Stomach Flu"
   },
   {
-    "diag": "Uterine prolapse"
+    "diag": "Sacroilitis"
   },
   {
-    "diag": "Vaginal cancer"
+    "diag": "Coccyx Fracture"
   },
   {
-    "diag": "Varicocele"
+    "diag": "Hip Flexor Strain"
   },
   {
-    "diag": "Varicose veins"
+    "diag": "Inguinal Hernia"
   },
   {
-    "diag": "Vasculitis"
+    "diag": "Chlamydia"
   },
   {
-    "diag": "Ventricular fibrillation"
+    "diag": "Gonorrhea"
   },
   {
-    "diag": "Ventricular tachycardia"
+    "diag": "Endometriosis"
   },
   {
-    "diag": "Viral hepatitis"
+    "diag": "Prostatitis"
   },
   {
-    "diag": "Vitamin B12 deficiency"
+    "diag": "Pelvic Fracture"
   },
   {
-    "diag": "Vitamin D deficiency"
+    "diag": "Prostate Cancer"
   },
   {
-    "diag": "Vocal cord paralysis"
+    "diag": "Testicular Cancer"
+  },
+  {
+    "diag": "Endometrial Cancer"
+  },
+  {
+    "diag": "Bladder Cancer"
+  },
+  {
+    "diag": "Breast Cancer"
+  },
+  {
+    "diag": "Colon/Rectal Cancer"
+  },
+  {
+    "diag": "Renal Cancer"
+  },
+  {
+    "diag": "Leukemia"
+  },
+  {
+    "diag": "Liver Cancer"
+  },
+  {
+    "diag": "Lung Cancer"
+  },
+  {
+    "diag": "Melanoma"
+  },
+  {
+    "diag": "Pancreatic Cancer"
+  },
+  {
+    "diag": "Thyroid Cancer"
+  },
+  {
+    "diag": "Adductor Strain"
+  },
+  {
+    "diag": "Lower Back Strain"
+  },
+  {
+    "diag": "Hamstring Strain"
+  },
+  {
+    "diag": "Calf Strain"
+  },
+  {
+    "diag": "Neck Strain"
+  },
+  {
+    "diag": "Hamstring Tear"
+  },
+  {
+    "diag": "Quadricep Tear"
+  },
+  {
+    "diag": "Deep Vein Thrombosis"
+  },
+  {
+    "diag": "Gout"
+  },
+  {
+    "diag": "Sinusitis"
   }
 ]

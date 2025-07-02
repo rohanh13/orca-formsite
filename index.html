@@ -22,23 +22,21 @@
 
     <main class="body">
       <section class="form-section">
-        <h2>Diagnosis Surveys</h2>
+        <h2>(diagnosis) Survey</h2>
 
         <p class="para1" id="para1">
-          Please answer the following questions based on <span class="bold">(diagnosis)</span>. If you do not know an answer, or if it does not apply to the case, please leave the question blank.
+          Please answer the following questions based on <span class="blue">(diagnosis)</span>. If you do not know an answer, or if it does not apply to the case, please leave the question blank.
         </p>
         
         <form id="surveyForm">
           <div class="form-group">
             <label>1. For what age group(s) does this apply?</label><br>
-            <label><input type="checkbox" name="question1" value="Under 18"> Under 18</label><br>
-            <label><input type="checkbox" name="question1" value="18–24"> 18–24</label><br>
-            <label><input type="checkbox" name="question1" value="25–34"> 25–34</label><br>
-            <label><input type="checkbox" name="question1" value="35–44"> 35–44</label><br>
-            <label><input type="checkbox" name="question1" value="45-54"> 45-54</label><br>
-            <label><input type="checkbox" name="question1" value="55-64"> 55-64</label><br>
-            <label><input type="checkbox" name="question1" value="65+"> 65+</label>
-            <label><input type="checkbox" name="question1" value="All"> All of the above</label>
+            <label><input type="checkbox" name="question1" value="BabyToddlerChild"> Babies, Toddlers, and Children</label><br>
+            <label><input type="checkbox" name="question1" value="Adolescent"> Adolescents / Young Adults</label><br>
+            <label><input type="checkbox" name="question1" value="25–44"> 25–45 year olds</label><br>
+            <label><input type="checkbox" name="question1" value="MiddleAged"> Middle Aged</label><br>
+            <label><input type="checkbox" name="question1" value="Senior"> Seniors</label><br>
+            <label><input type="checkbox" name="question1" value="All"><span class="black"> All of the above</span></label>
           </div>
 
           <div class="form-group">
@@ -70,13 +68,13 @@
             <label><input type="checkbox" name="question3" value="HandFingers"> Hand / Fingers</label><br>
             <label><input type="checkbox" name="question3" value="Neck"> Neck</label><br>
             <label><input type="checkbox" name="question3" value="HeadFace"> Head / Face</label><br>
-            <label><input type="checkbox" name="question3" value="All"> Can affect all of the above</label><br>
-            <label><input type="checkbox" name="question3" value="NA"> Not Applicable</label>
+            <label><input type="checkbox" name="question3" value="All"><span class="black"> Can affect all of the above</span></label><br>
+            <label><input type="checkbox" name="question3" value="NA"><span class="red"> Not Applicable</span></label>
           </div>
 
           <div class="form-group-sa">
-            <label for="question4">4. If necessary, please expand on the specific body part or organ</label><br>
-            <label for="question4"><span class="brackets">(posterior or anterior, left or right, specific organ, muscle, bones, skin, blood, etc.):</span></label>
+            <label for="question4">4. If necessary, please expand on the specific body part or organ<br>
+              <span class="brackets">(posterior or anterior, left or right, specific organ, muscle, bones, skin, blood, etc.):</span></label>
             <textarea id="question4" name="question4" rows="3"></textarea>
           </div>
 
@@ -85,8 +83,8 @@
             <label><input type="checkbox" name="question5" value="Swelling"> Yes, swelling</label><br>
             <label><input type="checkbox" name="question5" value="Discoloration"> Yes, discoloration</label><br>
             <label><input type="checkbox" name="question5" value="Bruising"> Yes, bruising</label><br>
-            <label><input type="checkbox" name="question5" value="None"> No, usually there is no swelling, discoloration, or bruising</label><br>
-            <label><input type="checkbox" name="question5" value="NA"> Not Applicable</label>
+            <label><input type="checkbox" name="question5" value="None"><span class="black"> No, usually there is no swelling, discoloration, or bruising</span></label><br>
+            <label><input type="checkbox" name="question5" value="NA"><span class="red"> Not Applicable</span></label>
           </div>
 
           <div class="form-group">
@@ -103,8 +101,8 @@
             <label><input type="checkbox" name="question6" value="Sharp"> Sharp</label><br>
             <label><input type="checkbox" name="question6" value="Tingling"> Tingling</label><br>
             <label><input type="checkbox" name="question6" value="StiffTight"> Stiff / Tightness</label><br>
-            <label><input type="checkbox" name="question6" value="None"> None of the above</label><br>
-            <label><input type="checkbox" name="question6" value="NA"> Not Applicable</label>
+            <label><input type="checkbox" name="question6" value="None"><span class="black"> None of the above</span></label><br>
+            <label><input type="checkbox" name="question6" value="NA"><span class="red"> Not Applicable</span></label>
           </div>
 
           <div class="form-group">
@@ -113,7 +111,7 @@
             <label><input type="checkbox" name="question7" value="Moderate"> Moderate pain (4-6 / 10)</label><br>
             <label><input type="checkbox" name="question7" value="Mild"> Mild pain (1-3 / 10)</label><br>
             <label><input type="checkbox" name="question7" value="None"> Not painful at all (0 / 10)</label><br>
-            <label><input type="checkbox" name="question7" value="NA"> Not Applicable</label>
+            <label><input type="checkbox" name="question7" value="NA"><span class="red"> Not Applicable</span></label>
           </div>
 
           <div class="form-group">
@@ -123,8 +121,8 @@
             <label><input type="checkbox" name="question8" value="Congenital"> Congenital</label><br>
             <label><input type="checkbox" name="question8" value="Spontaneously"> Spontaneously</label><br>
             <label><input type="checkbox" name="question8" value="Longitudinal"> Over a long period of time</label><br>
-            <label><input type="checkbox" name="question8" value="None"> None of the above</label><br>
-            <label><input type="checkbox" name="question8" value="NA"> Not Applicable</label>
+            <label><input type="checkbox" name="question8" value="None"><span class="black"> None of the above</span></label><br>
+            <label><input type="checkbox" name="question8" value="NA"><span class="red"> Not Applicable</span></label>
           </div>
 
           <div class="form-group">
@@ -132,22 +130,25 @@
             <label><input type="checkbox" name="question9" value="Constant"> Constant pain or discomfort</label><br>
             <label><input type="checkbox" name="question9" value="Intermittent"> Intermittent pain or discomfort</label><br>
             <label><input type="checkbox" name="question9" value="Conditional"> Pain or discomfort only in certain conditions/actions</label><br>
-            <label><input type="checkbox" name="question9" value="All"> All of the above</label><br>
-            <label><input type="checkbox" name="question9" value="NA"> Not Applicable</label>
+            <label><input type="checkbox" name="question9" value="All"><span class="black"> All of the above</span></label><br>
+            <label><input type="checkbox" name="question9" value="NA"><span class="red"> Not Applicable</span></label>
           </div>
 
           <div class="form-group-sa">
-            <label for="question10">10. If the pain/discomfort only arises in certain conditions, what are those conditions? (eating, urinating, lifting weights, etc.?)</label>
+            <label for="question10">10. If the pain/discomfort only arises in certain conditions, what are those conditions?<br>
+              <span class="brackets"> (eating, urinating, lifting weights, etc.)</span></label>
             <textarea id="question10" name="question10" rows="3"></textarea>
           </div>
 
           <div class="form-group-sa">
-            <label for="question11">11. Aside from those listed above, are there any outward symptoms commonly associated with (diagnosis)? (coughing, fever, weakness, headache, nausea, etc.?)</label>
+            <label for="question11">11. Aside from those listed above, are there any outward symptoms commonly associated with (diagnosis)?<br>
+               <span class="brackets">(coughing, fever, weakness, headache, nausea, etc.)</span></label>
             <textarea id="question11" name="question11" rows="3"></textarea>
           </div>
 
           <div class="form-group-sa">
-            <label for="question12">12. Please write down any pertinent details about (diagnosis) that were not addressed above (spots, rash, urine discoloration, etc.)</label>
+            <label for="question12">12. Please write down any pertinent details about (diagnosis) that were not addressed above<br>
+              <span class="brackets"> (spots, rash, urine discoloration, etc.)</span></label>
             <textarea id="question12" name="question12" rows="3"></textarea>
           </div>
 
@@ -172,6 +173,8 @@
   </div>
 
   <!-- bottom-fade script (optional) -->
+  <div class="bottom-fade"></div>
+
   <script>
     const fade = document.querySelector('.bottom-fade');
     window.addEventListener('scroll', () => {
