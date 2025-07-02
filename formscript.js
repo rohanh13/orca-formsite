@@ -40,14 +40,24 @@ document.addEventListener("DOMContentLoaded", () => {
           label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
         }
       }
-
-      const formGroupsSA = document.getElementsByClassName("form-group-sa");
-      for (let i = 0; i < formGroupsSA.length; i++) {
-        const label = formGroupsSA[i].querySelector("label");
-        if (label && label.textContent.includes("(diagnosis)")) {
-          label.textContent = label.textContent.replace("(diagnosis)", randomDiag);
-        }
+     
+      function replaceDiagnosisInNode(node, diagnosis) {
+        node.childNodes.forEach(child => {
+          if (child.nodeType === Node.TEXT_NODE && child.textContent.includes("(diagnosis)")) {
+            child.textContent = child.textContent.replaceAll("(diagnosis)", diagnosis);
+          } else if (child.nodeType === Node.ELEMENT_NODE) {
+            replaceDiagnosisInNode(child, diagnosis); // recurse into child elements
+          }
+        });
       }
+      
+      const formGroupsSA = document.getElementsByClassName("form-group-sa");
+        for (let i = 0; i < formGroupsSA.length; i++) {
+          const label = formGroupsSA[i].querySelector("label");
+          if (label) {
+            replaceDiagnosisInNode(label, randomDiag);
+          }
+        }
     })
     .catch(error => console.error('Error loading diagnoses.json:', error));
 });
