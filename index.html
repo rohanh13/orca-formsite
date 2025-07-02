@@ -179,12 +179,16 @@
     const fade = document.querySelector('.bottom-fade');
     window.addEventListener('scroll', () => {
       const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight;
-      const winHeight = window.innerHeight;
-      const scrollBottom = scrollTop + winHeight;
-      const distanceFromBottom = docHeight - scrollBottom;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = scrollTop / docHeight;
+
+      const fade = document.querySelector('.bottom-fade');
       if (fade) {
-        fade.style.opacity = distanceFromBottom < 150 ? distanceFromBottom / 150 : 1;
+        if (scrollPercent > 0.9) {
+          fade.style.opacity = '0';
+        } else {
+          fade.style.opacity = '1';
+        }
       }
     });
   </script>

@@ -16,12 +16,15 @@
 .bottom-fade {
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
-  height: 80px;
-  background: linear-gradient(to bottom, transparent, #dddddd);
+  max-width: 960px; /* match your .form-section width */
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, #ffffff);
   pointer-events: none;
   transition: opacity 0.3s ease;
+  z-index: 10;
 }
 
 /* === General Reset === */
@@ -35,7 +38,9 @@ html, body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: linear-gradient(to bottom, #f4f6f9, #e2e8f0);
+  background: linear-gradient(270deg, #009ee1, #c3ffdb, #64ffb4, #b9feff);
+  background-size: 800% 800%;
+  animation: oceanWaves 60s ease infinite;
   color: #1f1f1f;
   scroll-behavior: smooth;
 }
@@ -128,11 +133,11 @@ textarea {
 .form-section button {
   width: 100%;
   padding: 16px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   border-radius: 10px;
   border: none;
-  background: linear-gradient(to right, #009ee3, #00c982);
+  background: #009ee3;
   color: white;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
@@ -267,4 +272,10 @@ textarea {
   h2 {
     font-size: 32px;
   }
+}
+
+@keyframes oceanWaves {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
