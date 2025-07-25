@@ -231,11 +231,6 @@ textarea {
 
 /* === Responsive === */
 @media (max-width: 600px) {
-  .burger {
-    display: block;
-    font-size: 90%;
-  }
-
   .nav-links {
     display: none;
     flex-direction: column;

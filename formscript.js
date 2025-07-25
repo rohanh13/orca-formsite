@@ -94,6 +94,7 @@ document.getElementById('surveyForm').addEventListener('submit', async function 
     question11: document.getElementById('question11').value,
     question12: document.getElementById('question12').value,
     question13: document.getElementById('question13').value,
+    question14: document.getElementById('question14').value,
   };
 
   try {
