@@ -62,6 +62,11 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => console.error('Error loading diagnoses.json:', error));
 });
 
+function toggleSubGroup(id) {
+    const group = document.getElementById(id);
+    group.style.display = (group.style.display === 'none') ? 'block' : 'none';
+  }
+
 document.getElementById('surveyForm').addEventListener('submit', async function (e) {
   e.preventDefault();
 

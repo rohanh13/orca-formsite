@@ -50,26 +50,93 @@
 
           <div class="form-group">
             <label>3. What part(s) of the body is/are usually affected by (diagnosis)?</label><br>
-            <label><input type="checkbox" name="question3" value="FootAnkle"> Foot / Ankle</label><br>
-            <label><input type="checkbox" name="question3" value="CalfShin"> Leg </label><br>
-            <label><input type="checkbox" name="question3" value="Knee"> Knee</label><br>
-            <label><input type="checkbox" name="question3" value="Thigh"> Thigh</label><br>
-            <label><input type="checkbox" name="question3" value="GenitalsGroin"> Groin / Genitals</label><br>
-            <label><input type="checkbox" name="question3" value="Pelvis"> Pelvis</label><br>
-            <label><input type="checkbox" name="question3" value="Buttocks"> Buttocks</label><br>
-            <label><input type="checkbox" name="question3" value="Hip"> Hip</label><br>
-            <label><input type="checkbox" name="question3" value="AbdomenStomach"> Abdomen / Belly</label><br>
-            <label><input type="checkbox" name="question3" value="Chest"> Chest</label><br>
-            <label><input type="checkbox" name="question3" value="LowerBack"> Lower Back</label><br>
-            <label><input type="checkbox" name="question3" value="UpperBack"> Upper Back</label><br>
-            <label><input type="checkbox" name="question3" value="Shoulder"> Shoulder</label><br>
-            <label><input type="checkbox" name="question3" value="Arm"> Arm</label><br>
-            <label><input type="checkbox" name="question3" value="Elbow"> Elbow</label><br>
-            <label><input type="checkbox" name="question3" value="Forearm"> Forearm</label><br>
-            <label><input type="checkbox" name="question3" value="Wrist"> Wrist</label><br>
-            <label><input type="checkbox" name="question3" value="HandFingers"> Hand / Fingers</label><br>
-            <label><input type="checkbox" name="question3" value="Neck"> Neck</label><br>
-            <label><input type="checkbox" name="question3" value="HeadFace"> Head / Face</label><br>
+
+            <!-- Top-level body regions -->
+            <label><input type="checkbox" onclick="toggleSubGroup('HeadFaceGroup')" /> Head, Face, & Neck</label><br>
+            <div id="HeadFaceGroup" class="sub-group" style="display:none; margin-left: 20px;">
+              <label><input type="checkbox" name="question3" onclick="toggleSubGroup('FaceGroup')" value="Face"> Face</label>
+                <div id="FaceGroup" class="sub-group" style="display:none; margin-left: 20px;">
+                  <label><input type="checkbox" name="question3" value="ForeheadTemple"> Forehead / Temples</label>
+                  <label><input type="checkbox" name="question3" value="Eyes"> Eyes</label>
+                  <label><input type="checkbox" name="question3" value="Ears"> Ears</label>
+                  <label><input type="checkbox" name="question3" value="Nose"> Nose</label>
+                  <label><input type="checkbox" name="question3" value="Sinuses"> Sinuses</label>
+                  <label><input type="checkbox" name="question3" value="Cheek"> Cheek</label>
+                  <label><input type="checkbox" name="question3" value="Mouth"> Mouth / Lips</label>
+                  <label><input type="checkbox" name="question3" value="JawChin"> Jaw / Chin</label><br>
+                </div>
+              <label><input type="checkbox" name="question3" value="BackSkull"> Back of Skull</label>
+              <label><input type="checkbox" name="question3" value="TopSkull"> Top of Skull</label>
+              <label><input type="checkbox" name="question3" value="AnteriorNeck"> Anterior Neck</label>
+              <label><input type="checkbox" name="question3" value="PosteriorNeck"> Posterior Neck <span class="black">(C1 to C7)</span></label><br>
+            </div>
+
+            <label><input type="checkbox" onclick="toggleSubGroup('TorsoGroup')" /> Torso</label><br>
+            <div id="TorsoGroup" class="sub-group" style="display:none; margin-left: 20px;">
+              <label><input type="checkbox" name="question3" value="UpperBack"> Upper Back <span class="black">(T1 to T9)</span></label>
+              <label><input type="checkbox" name="question3" value="UpperBack"> Mid Back <span class="black">(T10 to L2)</span></label>
+              <label><input type="checkbox" name="question3" value="LowerBack"> Lower Back <span class="black">(L3 to Coccyx)</span></label>
+              <label><input type="checkbox" name="question3" value="Chest"> Chest</label>
+              <label><input type="checkbox" name="question3" value="Axilla"> Axilla <span class="black">(Armpit)</span></label>
+              <label><input type="checkbox" name="question3" onclick="toggleSubGroup('AbdomenGroup')" value="AbdomenStomach"> Abdomen / Belly</label><br>
+                <div id="AbdomenGroup" class="sub-group" style="display:none; margin-left: 20px;">
+                  <label><input type="checkbox" name="question3" value="LLQ"> Left Lower Quadrant</label>
+                  <label><input type="checkbox" name="question3" value="LUQ"> Left Upper Quadrant</label>
+                  <label><input type="checkbox" name="question3" value="RLQ"> Right Lower Quadrant</label>
+                  <label><input type="checkbox" name="question3" value="RUQ"> Right Upper Quadrant</label>
+                  <label><input type="checkbox" name="question3" value="Stomach"> Stomach</label><br>
+                </div>
+            </div>
+
+            <label><input type="checkbox" onclick="toggleSubGroup('ArmGroup')" /> Arm</label><br>
+            <div id="ArmGroup" class="sub-group" style="display:none; margin-left: 20px;">
+              <label><input type="checkbox" name="question3" value="Shoulder"> Shoulder</label>
+              <label><input type="checkbox" name="question3" value="Arm"> Arm <span class="black">(Bicep / Tricep)</span></label>
+              <label><input type="checkbox" name="question3" value="Elbow"> Elbow</label>
+              <label><input type="checkbox" name="question3" value="Forearm"> Forearm</label><br>
+            </div>
+
+            <label><input type="checkbox" onclick="toggleSubGroup('HandGroup')" /> Hand / Wrist</label><br>
+            <div id="HandGroup" class="sub-group" style="display:none; margin-left: 20px;">
+              <label><input type="checkbox" name="question3" value="Wrist"> Wrist</label>
+              <label><input type="checkbox" name="question3" value="Hand"> Hand</label>
+              <label><input type="checkbox" name="question3" value="Fingers"> Fingers</label>
+              <label><input type="checkbox" name="question3" value="Thumb"> Thumb</label><br>
+            </div>
+
+            <label><input type="checkbox" onclick="toggleSubGroup('PelvisGroup')" /> Pelvis</label><br>
+            <div id="PelvisGroup" class="sub-group" style="display:none; margin-left: 20px;">
+              <label><input type="checkbox" name="question3" value="Hip"> Hip</label>
+              <label><input type="checkbox" name="question3" value="Groin"> Groin</label>
+              <label><input type="checkbox" name="question3" value="Genitals"> Genitals</label>
+              <label><input type="checkbox" name="question3" value="Buttocks"> Buttocks</label><br>
+            </div>
+
+            <label><input type="checkbox" onclick="toggleSubGroup('LegGroup')" /> Leg</label><br>
+            <div id="LegGroup" class="sub-group" style="display:none; margin-left: 20px;">
+              <label><input type="checkbox" name="question3" value="AnteriorThigh"> Anterior Thigh <span class="black">(Quadriceps)</span></label>
+              <label><input type="checkbox" name="question3" value="PosteriorThigh"> Posterior Thigh <span class="black">(Hamstrings)</span></label>
+              <label><input type="checkbox" name="question3" onclick="toggleSubGroup('KneeGroup')"value="Knee"> Knee</label>
+                <div id="KneeGroup" class="sub-group" style="display:none; margin-left: 20px;">
+                  <label><input type="checkbox" name="question3" value="AnteriorKnee"> Anterior Knee</label>
+                  <label><input type="checkbox" name="question3" value="PosteriorKnee"> Posterior Knee</label>
+                  <label><input type="checkbox" name="question3" value="LateralKnee"> Lateral Knee</label>
+                  <label><input type="checkbox" name="question3" value="MedialKnee"> Medial Knee</label><br>
+                </div>
+              <label><input type="checkbox" name="question3" value="Calf"> Calf</label>
+              <label><input type="checkbox" name="question3" value="Shin"> Shin</label><br>
+            </div>
+
+            <label><input type="checkbox" onclick="toggleSubGroup('FootGroup')" /> Foot / Ankle</label><br>
+            <div id="FootGroup" class="sub-group" style="display:none; margin-left: 20px;">
+              <label><input type="checkbox" name="question3" value="LateralAnkle"> Lateral Ankle</label>
+              <label><input type="checkbox" name="question3" value="MedialAnkle"> Medial Ankle</label>
+              <label><input type="checkbox" name="question3" value="AchillesAnkle"> Posterior Ankle <span class="black">(inc. Achilles Tendon)</span></label>
+              <label><input type="checkbox" name="question3" value="PlantarFoot"> Plantar Surface of Foot</label>
+              <label><input type="checkbox" name="question3" value="DorsalFoot"> Dorsal Surface of Foot</label>
+              <label><input type="checkbox" name="question3" value="Toes"> Toes</label><br>
+            </div>
+
             <label><input type="checkbox" name="question3" value="All"><span class="black"> Can affect all of the above</span></label><br>
             <label><input type="checkbox" name="question3" value="NA"><span class="red"> Not Applicable</span></label>
           </div>
