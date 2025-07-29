@@ -5,16 +5,16 @@
 }
 
 .red {
-  color: #ab0000;
-  font-weight: bold;
+  color: #ab0000 !important;
+  font-weight: bold !important;
 }
 
 .black {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .grayed {
-  color: #696969
+  color: #696969 !important;
 }
 
 .bottom-fade {
@@ -41,7 +41,7 @@
 html, body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   background: linear-gradient(270deg, #009ee1, #c3ffdb, #64ffb4, #b9feff);
   background-size: 800% 800%;
   animation: oceanWaves 60s ease infinite;
@@ -67,8 +67,11 @@ h2 {
 
 .brackets {
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal !important;
+  display: inline-block;    /* <-- important */
+  margin-bottom: 20PX;      /* <-- adds space BELOW */
+  line-height: 1.2;         /* optional: tighter line height */
 }
 
 /* === Layout === */
@@ -105,6 +108,12 @@ main {
   font-weight: 600;
   margin-bottom: 16px;
   color: #1f1f1f;
+}
+
+.form-group label input[type="checkbox"] + span {
+  font-size: 1rem;      /* Adjust as needed */
+  font-weight: normal;  /* Remove bold */
+  color: inherit;       /* Match surrounding text */
 }
 
 /* === Checkboxes === */
