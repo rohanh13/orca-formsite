@@ -9,7 +9,13 @@
     "diag": "Dislocated Jaw"
   },
   {
-    "diag": "Intracranial Bleed"
+    "diag": "Subdural bleed"
+  },
+  {
+    "diag": "Epidural bleed"
+  },
+  {
+    "diag": "Sub arachnoid bleed"
   },
   {
     "diag": "Migraine"
@@ -96,7 +102,7 @@
     "diag": "Clavicle Fracture"
   },
   {
-    "diag": "Degenerative Joint Disease"
+    "diag": "Degenerative Joint Disease/Osteoarthritis"
   },
   {
     "diag": "Diabetic Foot Disease"
@@ -198,7 +204,10 @@
     "diag": "Pericarditis"
   },
   {
-    "diag": "Stomach Ulcers"
+    "diag": "Gastric ulcer"
+  },
+  {
+    "diag": "Duodendal ulcer"
   },
   {
     "diag": "Gastritis"
@@ -207,7 +216,13 @@
     "diag": "Pancreatitis"
   },
   {
-    "diag": "Pneumonia"
+    "diag": "Interstitial pneumonia"
+  },
+  {
+    "diag": "Lobar Pneumonia"
+  },
+  {
+    "diag": "Bronchopneumonia"
   },
   {
     "diag": "Rib Fracture"
@@ -264,7 +279,10 @@
     "diag": "Endometriosis"
   },
   {
-    "diag": "Prostatitis"
+    "diag": "Acute Prostatitis"
+  },
+  {
+    "diag": "Chronic prostatitis"
   },
   {
     "diag": "Pelvic Fracture"
@@ -273,55 +291,28 @@
     "diag": "Prostate Cancer"
   },
   {
-    "diag": "Testicular Cancer"
+    "diag": "Spermatocele"
   },
   {
-    "diag": "Endometrial Cancer"
+    "diag": "Hydrocele"
   },
   {
-    "diag": "Bladder Cancer"
+    "diag": "Varicocele"
   },
   {
-    "diag": "Breast Cancer"
+    "diag": "Grade III Adductor Strain"
   },
   {
-    "diag": "Colon/Rectal Cancer"
+    "diag": "Grade III Lower Back Strain"
   },
   {
-    "diag": "Renal Cancer"
+    "diag": "Grade III Hamstring Strain"
   },
   {
-    "diag": "Leukemia"
+    "diag": "Grade III Calf Strain"
   },
   {
-    "diag": "Liver Cancer"
-  },
-  {
-    "diag": "Lung Cancer"
-  },
-  {
-    "diag": "Melanoma"
-  },
-  {
-    "diag": "Pancreatic Cancer"
-  },
-  {
-    "diag": "Thyroid Cancer"
-  },
-  {
-    "diag": "Adductor Strain"
-  },
-  {
-    "diag": "Lower Back Strain"
-  },
-  {
-    "diag": "Hamstring Strain"
-  },
-  {
-    "diag": "Calf Strain"
-  },
-  {
-    "diag": "Neck Strain"
+    "diag": "Grade III Neck Strain"
   },
   {
     "diag": "Hamstring Tear"
@@ -338,94 +329,316 @@
   {
     "diag": "Sinusitis"
   },
-  { "diag": "Common Cold" },
-  { "diag": "Influenza (Flu)" },
-  { "diag": "COVID-19" },
-  { "diag": "Acute Bronchitis" },
-  { "diag": "Tonsillitis / Strep Throat" },
-  { "diag": "Laryngitis" },
-  { "diag": "Otitis Media (Ear Infection)" },
-  { "diag": "Pink Eye (Conjunctivitis)" },
-  { "diag": "Epistaxis (Nosebleed)" },
-  { "diag": "Heart Failure" },
-  { "diag": "Atrial Fibrillation" },
-  { "diag": "Stroke (Cerebrovascular Accident)" },
-  { "diag": "Transient Ischemic Attack" },
-  { "diag": "Pulmonary Embolism" },
-  { "diag": "Peripheral Artery Disease" },
-  { "diag": "Cluster Headache" },
-  { "diag": "Tension Headache" },
-  { "diag": "Bell’s Palsy" },
-  { "diag": "Peripheral Neuropathy" },
-  { "diag": "Gastroenteritis (Stomach Flu)" },
-  { "diag": "Crohn’s Disease" },
-  { "diag": "Ulcerative Colitis" },
-  { "diag": "Hemorrhoids" },
-  { "diag": "Cholecystitis" },
-  { "diag": "Viral Hepatitis" },
-  { "diag": "Nonalcoholic Fatty Liver Disease" },
-  { "diag": "Fibromyalgia" },
-  { "diag": "Acne Vulgaris" },
-  { "diag": "Eczema (Atopic Dermatitis)" },
-  { "diag": "Psoriasis" },
-  { "diag": "Rosacea" },
-  { "diag": "Urticaria (Hives)" },
-  { "diag": "Contact Dermatitis" },
-  { "diag": "Athlete’s Foot (Tinea Pedis)" },
-  { "diag": "Ringworm (Tinea Corporis)" },
-  { "diag": "Tinea Versicolor" },
-  { "diag": "Warts (Viral)" },
-  { "diag": "Head Lice" },
-  { "diag": "Scabies" },
-  { "diag": "Impetigo" },
-  { "diag": "Cellulitis" },
-  { "diag": "Cataracts" },
-  { "diag": "Glaucoma" },
-  { "diag": "Macular Degeneration" },
-  { "diag": "Blepharitis" },
-  { "diag": "Stye (Hordeolum)" },
-  { "diag": "Dry Eye Syndrome" },
-  { "diag": "Yeast Infection" },
-  { "diag": "Bacterial Vaginosis" },
-  { "diag": "Pelvic Inflammatory Disease (PID)" },
-  { "diag": "Herpes Simplex Virus" },
-  { "diag": "HPV Infection" },
-  { "diag": "Syphilis" },
-  { "diag": "Hiatal Hernia" },
-  { "diag": "Peptic Ulcer Disease" },
-  { "diag": "Diverticulosis" },
-  { "diag": "Diverticulitis" },
-  { "diag": "Anal Fissure" },
-  { "diag": "TMJ" },
-  { "diag": "Barrett’s Esophagus" },
-  { "diag": "Lactose Intolerance" },
-  { "diag": "Rectal Prolapse" },
-  { "diag": "Gallbladder Polyps" },
-  { "diag": "Raynaud’s Phenomenon" },
-  { "diag": "Varicose Veins" },
-  { "diag": "Chronic Pain Syndrome" },
-  { "diag": "Dry Mouth" },
-  { "diag": "Dry Skin" },
-  { "diag": "Sinus Infection (Sinusitis)" },
-  { "diag": "Thrush (Oral Candidiasis)" },
-  { "diag": "Bursitis" },
-  { "diag": "Otitis Externa (Swimmer’s Ear)" },
-  { "diag": "Costochondritis" },
-  { "diag": "Hidradenitis Suppurativa" },
-  { "diag": "Intertrigo" },
-  { "diag": "Paronychia (Nail Infection)" },
-  { "diag": "Ingrown Toenail" },
-  { "diag": "Seborrheic Dermatitis" },
-  { "diag": "Shingles (Herpes Zoster)" },
-  { "diag": "Pleurisy" },
-  { "diag": "Pericarditis" },
-  { "diag": "Peritonitis" },
-  { "diag": "Appendicitis" },
-  { "diag": "Kidney Stones" },
-  { "diag": "Gallstones" },
-  { "diag": "Urinary Tract Infection" },
-  { "diag": "Stomach Flu" },
-  { "diag": "Pancreatitis" },
-  { "diag": "Gastritis" },
-  { "diag": "Stomach Ulcer" }
+  {
+    "diag": "Common Cold"
+  },
+  {
+    "diag": "Influenza (Flu)"
+  },
+  {
+    "diag": "COVID-19"
+  },
+  {
+    "diag": "Acute Bronchitis"
+  },
+  {
+    "diag": "Tonsillitis / Strep Throat"
+  },
+  {
+    "diag": "Laryngitis"
+  },
+  {
+    "diag": "Otitis Media (Ear Infection)"
+  },
+  {
+    "diag": "Pink Eye (Conjunctivitis)"
+  },
+  {
+    "diag": "Epistaxis (Nosebleed)"
+  },
+  {
+    "diag": "Coronary Artery Disease / Angina"
+  },
+  {
+    "diag": "Heart Failure"
+  },
+  {
+    "diag": "Atrial Fibrillation"
+  },
+  {
+    "diag": "Stroke (Cerebrovascular Accident)"
+  },
+  {
+    "diag": "Transient Ischemic Attack"
+  },
+  {
+    "diag": "Pulmonary Embolism"
+  },
+  {
+    "diag": "Peripheral Artery Disease"
+  },
+  {
+    "diag": "Cluster Headache"
+  },
+  {
+    "diag": "Tension Headache"
+  },
+  {
+    "diag": "Bell�s Palsy"
+  },
+  {
+    "diag": "Peripheral Neuropathy"
+  },
+  {
+    "diag": "Gastroenteritis (Stomach Flu)"
+  },
+  {
+    "diag": "Crohn�s Disease"
+  },
+  {
+    "diag": "Ulcerative Colitis"
+  },
+  {
+    "diag": "Hemorrhoids"
+  },
+  {
+    "diag": "Cholecystitis"
+  },
+  {
+    "diag": "Viral Hepatitis"
+  },
+  {
+    "diag": "Nonalcoholic Fatty Liver Disease"
+  },
+  {
+    "diag": "Fibromyalgia"
+  },
+  {
+    "diag": "Acne Vulgaris"
+  },
+  {
+    "diag": "Eczema (Atopic Dermatitis)"
+  },
+  {
+    "diag": "Psoriasis"
+  },
+  {
+    "diag": "Rosacea"
+  },
+  {
+    "diag": "Urticaria (Hives)"
+  },
+  {
+    "diag": "Contact Dermatitis"
+  },
+  {
+    "diag": "Athlete�s Foot (Tinea Pedis)"
+  },
+  {
+    "diag": "Ringworm (Tinea Corporis)"
+  },
+  {
+    "diag": "Tinea Versicolor"
+  },
+  {
+    "diag": "Warts (Viral)"
+  },
+  {
+    "diag": "Head Lice"
+  },
+  {
+    "diag": "Scabies"
+  },
+  {
+    "diag": "Impetigo"
+  },
+  {
+    "diag": "Cellulitis"
+  },
+  {
+    "diag": "Cataracts"
+  },
+  {
+    "diag": "Closed angle glaucoma"
+  },
+  {
+    "diag": "Open angle Glaucoma"
+  },
+  {
+    "diag": "Macular Degeneration - wet and dry"
+  },
+  {
+    "diag": "Blepharitis"
+  },
+  {
+    "diag": "Stye (Hordeolum)"
+  },
+  {
+    "diag": "Dry Eye Syndrome"
+  },
+  {
+    "diag": "Yeast Infection (STI)"
+  },
+  {
+    "diag": "Bacterial Vaginosis"
+  },
+  {
+    "diag": "Pelvic Inflammatory Disease (PID)"
+  },
+  {
+    "diag": "Herpes Simplex Virus"
+  },
+  {
+    "diag": "HPV Infection"
+  },
+  {
+    "diag": "Syphilis"
+  },
+  {
+    "diag": "Hiatal Hernia"
+  },
+  {
+    "diag": "Diverticulosis"
+  },
+  {
+    "diag": "Diverticulitis"
+  },
+  {
+    "diag": "Anal Fissure"
+  },
+  {
+    "diag": "TMJ"
+  },
+  {
+    "diag": "Barrett�s Esophagus"
+  },
+  {
+    "diag": "Lactose Intolerance"
+  },
+  {
+    "diag": "Rectal Prolapse"
+  },
+  {
+    "diag": "Gallbladder Polyps"
+  },
+  {
+    "diag": "Raynaud�s Phenomenon"
+  },
+  {
+    "diag": "Varicose Veins"
+  },
+  {
+    "diag": "Chronic Pain Syndrome"
+  },
+  {
+    "diag": "Dry Mouth"
+  },
+  {
+    "diag": "Dry Skin"
+  },
+  {
+    "diag": "Sinus Infection (Sinusitis)"
+  },
+  {
+    "diag": "Thrush (Oral Candidiasis)"
+  },
+  {
+    "diag": "Bursitis"
+  },
+  {
+    "diag": "Otitis Externa (Swimmer�s Ear)"
+  },
+  {
+    "diag": "Costochondritis"
+  },
+  {
+    "diag": "Hidradenitis Suppurativa"
+  },
+  {
+    "diag": "Intertrigo"
+  },
+  {
+    "diag": "Paronychia (Nail Infection)"
+  },
+  {
+    "diag": "Ingrown Toenail"
+  },
+  {
+    "diag": "Seborrheic Dermatitis"
+  },
+  {
+    "diag": "Shingles (Herpes Zoster)"
+  },
+  {
+    "diag": "BPH"
+  },
+  {
+    "diag": "Bronchitis"
+  },
+  {
+    "diag": "Vertigo"
+  },
+  {
+    "diag": "Anxiety"
+  },
+  {
+    "diag": "Depression"
+  },
+  {
+    "diag": "Schizophrenia"
+  },
+  {
+    "diag": "Bipolar"
+  },
+  {
+    "diag": "OCD"
+  },
+  {
+    "diag": "PTSD"
+  },
+  {
+    "diag": "Polycystic Ovarian Disease"
+  },
+  {
+    "diag": "Hypothyroidism"
+  },
+  {
+    "diag": "Hyperhyroidism"
+  },
+  {
+    "diag": "Graves diseaser"
+  },
+  {
+    "diag": "Alopecia"
+  },
+  {
+    "diag": "Grade I Adductor Strain"
+  },
+  {
+    "diag": "Grade I Lower Back Strain"
+  },
+  {
+    "diag": "Grade I Hamstring Strain"
+  },
+  {
+    "diag": "Grade I Calf Strain"
+  },
+  {
+    "diag": "Grade I Neck Strain"
+  },
+  {
+    "diag": "Grade II Adductor Strain"
+  },
+  {
+    "diag": "Grade II Lower Back Strain"
+  },
+  {
+    "diag": "Grade II Hamstring Strain"
+  },
+  {
+    "diag": "Grade II Calf Strain"
+  },
+  {
+    "diag": "Grade II Neck Strain"
+  }
 ]

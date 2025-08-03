@@ -2,7 +2,9 @@ diag
 Concussion
 Fractured Nose
 Dislocated Jaw
-Intracranial Bleed
+Subdural bleed
+Epidural bleed
+Sub arachnoid bleed
 Migraine
 Tinnitus
 Whiplash
@@ -28,10 +30,10 @@ Shin Splints (MTSS)
 Bunions
 Carpal Tunnel Syndrome
 Osteosarcoma
-Osteopenia
+Osteopenia 
 Osteoporosis
 Clavicle Fracture
-Degenerative Joint Disease
+Degenerative Joint Disease/Osteoarthritis
 Diabetic Foot Disease
 Knee Dislocation
 Hip Dislocation
@@ -57,7 +59,7 @@ Subconjunctival Hemorrhage
 Irritable Bowel Syndrome
 Appendicitis
 Kidney Stones
-Gallstones
+Gallstones 
 Rotator Cuff Tendon Impingement
 Frozen Shoulder
 Spinal Stenosis
@@ -65,10 +67,13 @@ Sciatica
 GERD
 Pulmonary Hypertension
 Pericarditis
-Stomach Ulcers
+Gastric ulcer
+Duodendal ulcer
 Gastritis
 Pancreatitis
-Pneumonia
+Interstitial pneumonia
+Lobar Pneumonia
+Bronchopneumonia
 Rib Fracture
 Shingles
 Myocarditis
@@ -87,26 +92,18 @@ Inguinal Hernia
 Chlamydia
 Gonorrhea
 Endometriosis
-Prostatitis
+Acute Prostatitis
+Chronic prostatitis
 Pelvic Fracture
 Prostate Cancer
-Testicular Cancer
-Endometrial Cancer
-Bladder Cancer
-Breast Cancer
-Colon/Rectal Cancer
-Renal Cancer
-Leukemia
-Liver Cancer
-Lung Cancer
-Melanoma
-Pancreatic Cancer
-Thyroid Cancer
-Adductor Strain
-Lower Back Strain
-Hamstring Strain
-Calf Strain
-Neck Strain
+Spermatocele
+Hydrocele
+Varicocele
+Grade III Adductor Strain
+Grade III Lower Back Strain
+Grade III Hamstring Strain
+Grade III Calf Strain
+Grade III Neck Strain
 Hamstring Tear
 Quadricep Tear
 Deep Vein Thrombosis
@@ -155,19 +152,19 @@ Scabies
 Impetigo
 Cellulitis
 Cataracts
-Glaucoma
-Macular Degeneration
+Closed angle glaucoma
+Open angle Glaucoma 
+Macular Degeneration - wet and dry
 Blepharitis
 Stye (Hordeolum)
 Dry Eye Syndrome
-Yeast Infection
+Yeast Infection (STI)
 Bacterial Vaginosis
 Pelvic Inflammatory Disease (PID)
 Herpes Simplex Virus
 HPV Infection
 Syphilis
 Hiatal Hernia
-Peptic Ulcer Disease
 Diverticulosis
 Diverticulitis
 Anal Fissure
@@ -192,14 +189,27 @@ Paronychia (Nail Infection)
 Ingrown Toenail
 Seborrheic Dermatitis
 Shingles (Herpes Zoster)
-Pleurisy
-Pericarditis
-Peritonitis
-Appendicitis
-Kidney Stones
-Gallstones
-Urinary Tract Infection
-Stomach Flu
-Pancreatitis
-Gastritis
-Stomach Ulcer
+BPH
+Bronchitis
+Vertigo 
+Anxiety
+Depression 
+Schizophrenia
+Bipolar 
+OCD
+PTSD
+Polycystic Ovarian Disease 
+Hypothyroidism
+Hyperhyroidism 
+Graves diseaser 
+Alopecia
+Grade I Adductor Strain
+Grade I Lower Back Strain
+Grade I Hamstring Strain
+Grade I Calf Strain
+Grade I Neck Strain
+Grade II Adductor Strain
+Grade II Lower Back Strain
+Grade II Hamstring Strain
+Grade II Calf Strain
+Grade II Neck Strain
