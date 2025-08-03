@@ -15,7 +15,7 @@
     "diag": "Epidural bleed"
   },
   {
-    "diag": "Sub arachnoid bleed"
+    "diag": "Subarachnoid bleed"
   },
   {
     "diag": "Migraine"
@@ -207,7 +207,7 @@
     "diag": "Gastric ulcer"
   },
   {
-    "diag": "Duodendal ulcer"
+    "diag": "Duodenal ulcer"
   },
   {
     "diag": "Gastritis"
@@ -258,7 +258,7 @@
     "diag": "Stomach Flu"
   },
   {
-    "diag": "Sacroilitis"
+    "diag": "Sacroiliitis"
   },
   {
     "diag": "Coccyx Fracture"
@@ -606,7 +606,7 @@
     "diag": "Hyperhyroidism"
   },
   {
-    "diag": "Graves diseaser"
+    "diag": "Graves disease"
   },
   {
     "diag": "Alopecia"
